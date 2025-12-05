@@ -1,0 +1,17 @@
+.elementor-kit-775{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#000000;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-334dbaba:#54595F;--e-global-color-2a9f7ce6:#4054B2;--e-global-color-309d6b7:#23A455;--e-global-color-42f3bec4:#000;--e-global-color-5e104d5:#FFF;--e-global-color-446acd07:#020101;--e-global-color-1c91b95:#82DBCC;--e-global-color-1f1f768:#877FDD;--e-global-color-233dd04:#59666D;--e-global-typography-primary-font-family:"TeXGyreAdventor";--e-global-typography-primary-font-weight:bold;--e-global-typography-secondary-font-family:"TeXGyreAdventor";--e-global-typography-secondary-font-weight:bold;--e-global-typography-text-font-family:"TeXGyreAdventor";--e-global-typography-text-font-weight:normal;--e-global-typography-accent-font-family:"TeXGyreAdventor";--e-global-typography-accent-font-weight:normal;}.elementor-kit-775 e-page-transition{background-color:#FFBC7D;}.elementor-kit-775 a{color:#877FDD;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1400px;}.e-con{--container-max-width:1400px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.smartvrlab.nl/wp-content/uploads/2019/05/TeXGyreAdventor-Regular.woff2') format('woff2'),
+		url('https://www.smartvrlab.nl/wp-content/uploads/2019/05/TeXGyreAdventor-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://www.smartvrlab.nl/wp-content/uploads/2019/05/TeXGyreAdventor-Bold.woff2') format('woff2'),
+		url('https://www.smartvrlab.nl/wp-content/uploads/2019/05/TeXGyreAdventor-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

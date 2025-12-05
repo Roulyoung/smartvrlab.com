@@ -1,0 +1,216 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Smart VR Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+</head>
+<body class="bg-base-100 text-base-content">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-base-200">
+      <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+        <div class="navbar-start">
+          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-sm font-medium">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="interactive-video.html">Interactive Video</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="virtual-reality-blog.html">Blog</a></li>
+            <li><a href="helpdesk.html">Helpdesk</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-2">
+          <a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
+          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
+          <div class="dropdown dropdown-end lg:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="interactive-video.html">Interactive Video</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="virtual-reality-blog.html">Blog</a></li>
+              <li><a href="helpdesk.html">Helpdesk</a></li>
+              <li><a href="index.html#cta">Plan a call</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1">
+      <section class="py-10 md:py-12 bg-base-200">
+        <div class="max-w-6xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 items-center">
+          <div class="space-y-3">
+            <p class="badge badge-outline badge-primary">Blog</p>
+            <h1 class="text-3xl md:text-4xl font-display font-bold">VR CMS & immersive tech insights</h1>
+            <p class="text-base text-base-content/80 max-w-3xl">Discover VR CMS essentials and VR/AR/XR trends.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-10 md:py-14">
+        <div class="max-w-6xl mx-auto px-4 md:px-8 space-y-10">
+          <div id="blog-grid" class="grid gap-6 md:grid-cols-2">
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="1">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/03/Degrees-of-Freedom-Chart-01-1024x576.png" alt="Degrees of Freedom chart" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="3dof-vs-6dof-in-vr.html">What is the difference between 3DoF vs 6DoF in VR?</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="1">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/08/VRindustries_SmartVRLab_Amsterdam-300x169.png" alt="VR industries overview" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list.html">The top 10 industries that use VR (and how they use it)</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="1">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/04/VR-CMS-content-management-07-1024x724.png" alt="VR CMS management illustration" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="how-safe-is-virtual-reality-the-side-effects-of-vr.html">How safe is Virtual Reality? The side effects of VR</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="1">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/03/VR-training-pilot-1024x768.jpg" alt="VR training pilot" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="what-is-vr-training-the-2022-guide-to-vr-training.html">What is VR training? The 2022 guide to VR training</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="2">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/06/plaatje-vr-bril-apps-1024x827.jpg" alt="VR headset apps" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="what-do-i-need-for-virtual-reality-a-vr-guide-for-2022.html">What do I need for Virtual Reality? A VR Guide for 2022</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="2">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/01/Global-E-learning-VR-market-in-USD-.png" alt="VR market growth" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="what-are-the-differences-between-vr-vs-ar-vs-xr.html">What are the differences between VR vs AR vs XR?</a></h3>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md hover:-translate-y-1 transition blog-card" data-page="2">
+              <figure class="h-48 overflow-hidden">
+                <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/02/VR-in-Manufacturing-and-Customer-Service-Training-4.3.18-1024x576.jpg" alt="VR in manufacturing training" class="w-full h-full object-cover">
+              </figure>
+              <div class="card-body space-y-2">
+                <h3 class="card-title text-xl"><a class="link link-primary" href="5-ways-vr-can-boost-workplace-productivity-2.html">5 Ways VR Can Boost Workplace Productivity</a></h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <div class="join">
+              <button id="prev-page" class="join-item btn btn-sm btn-disabled" aria-label="Previous page">Previous</button>
+              <button id="page-1-btn" class="join-item btn btn-sm btn-active" data-page="1">1</button>
+              <button id="page-2-btn" class="join-item btn btn-sm" data-page="2">2</button>
+              <button id="next-page" class="join-item btn btn-sm" aria-label="Next page">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        (function() {
+          const cards = Array.from(document.querySelectorAll('.blog-card'));
+          const prev = document.getElementById('prev-page');
+          const next = document.getElementById('next-page');
+          const pageButtons = Array.from(document.querySelectorAll('[data-page]')).filter(btn => btn.id?.includes('page-'));
+          const totalPages = Math.max(...cards.map(c => Number(c.dataset.page)));
+          let currentPage = 1;
+
+          function render() {
+            cards.forEach(card => {
+              card.classList.toggle('hidden', Number(card.dataset.page) !== currentPage);
+            });
+            pageButtons.forEach(btn => {
+              btn.classList.toggle('btn-active', Number(btn.dataset.page) === currentPage);
+            });
+            prev.classList.toggle('btn-disabled', currentPage === 1);
+            next.classList.toggle('btn-disabled', currentPage === totalPages);
+          }
+
+          pageButtons.forEach(btn => btn.addEventListener('click', () => {
+            currentPage = Number(btn.dataset.page);
+            render();
+          }));
+          prev.addEventListener('click', () => {
+            if (currentPage > 1) { currentPage -= 1; render(); }
+          });
+          next.addEventListener('click', () => {
+            if (currentPage < totalPages) { currentPage += 1; render(); }
+          });
+
+          render();
+        })();
+      </script>
+
+      <section class="py-10 md:py-12 bg-base-200">
+        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div>
+            <h3 class="text-2xl font-display font-bold">Ready to start with VR CMS?</h3>
+            <p class="text-base text-base-content/80">Try free or talk with us.</p>
+          </div>
+          <div class="flex gap-3">
+            <a class="btn btn-primary" href="index.html#demo">Start free</a>
+            <a class="btn btn-outline btn-secondary" href="index.html#cta">Talk to us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer p-8 bg-base-200 text-base-content">
+      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
+        <div class="space-y-3">
+          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Product</h4>
+          <a class="link link-hover" href="index.html#solutions">Platform</a>
+          <a class="link link-hover" href="index.html#features">Features</a>
+          <a class="link link-hover" href="pricing.html">Pricing</a>
+        </div>
+        <div>
+          <h4 class="footer-title">Company</h4>
+          <a class="link link-hover" href="index.html#about">About</a>
+          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
+          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <a class="link link-hover">info@smartvrlab.nl</a>
+          <a class="link link-hover">LinkedIn</a>
+          <a class="link link-hover">YouTube</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

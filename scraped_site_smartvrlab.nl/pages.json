@@ -1,0 +1,551 @@
+{
+  "https://www.smartvrlab.nl": {
+    "file": "pages\\index.html"
+  },
+  "https://www.smartvrlab.nl/interactive-video/": {
+    "file": "pages\\interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing/": {
+    "file": "pages\\pricing\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/": {
+    "file": "pages\\services\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/360-video/": {
+    "file": "pages\\services\\360-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/augmented-reality-ar/": {
+    "file": "pages\\services\\augmented-reality-ar\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/3d-web-apps/": {
+    "file": "pages\\services\\3d-web-apps\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/vr-webinars/": {
+    "file": "pages\\services\\vr-webinars\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/": {
+    "file": "pages\\virtual-reality-blog\\index.html"
+  },
+  "https://www.smartvrlab.nl/helpdesk/": {
+    "file": "pages\\helpdesk\\index.html"
+  },
+  "https://www.smartvrlab.nl/interactive-video": {
+    "file": "pages\\interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/report-bugs-or-problems/": {
+    "file": "pages\\help\\report-bugs-or-problems\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/user-feedback/": {
+    "file": "pages\\help\\user-feedback\\index.html"
+  },
+  "http://www.smartvrlab.nl": {
+    "file": "pages\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing-interactive-video": {
+    "file": "pages\\pricing-interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/": {
+    "file": "pages\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing/?amp=1": {
+    "file": "pages\\pricing\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/?amp=1": {
+    "file": "pages\\services\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/360-video/?amp=1": {
+    "file": "pages\\services\\360-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/360-video": {
+    "file": "pages\\services\\360-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/3d-web-apps": {
+    "file": "pages\\services\\3d-web-apps\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/augmented-reality-ar/?amp=1": {
+    "file": "pages\\services\\augmented-reality-ar\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/3d-web-apps/?amp=1": {
+    "file": "pages\\services\\3d-web-apps\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/augmented-reality-ar": {
+    "file": "pages\\services\\augmented-reality-ar\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/vr-webinars/?amp=1": {
+    "file": "pages\\services\\vr-webinars\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list/": {
+    "file": "pages\\what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-safe-is-virtual-reality-the-side-effects-of-vr/": {
+    "file": "pages\\how-safe-is-virtual-reality-the-side-effects-of-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-is-vr-training-the-2022-guide-to-vr-training/": {
+    "file": "pages\\what-is-vr-training-the-2022-guide-to-vr-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-do-i-need-for-virtual-reality-a-vr-guide-for-2022/": {
+    "file": "pages\\what-do-i-need-for-virtual-reality-a-vr-guide-for-2022\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-are-the-differences-between-vr-vs-ar-vs-xr/": {
+    "file": "pages\\what-are-the-differences-between-vr-vs-ar-vs-xr\\index.html"
+  },
+  "https://www.smartvrlab.nl/5-ways-vr-can-boost-workplace-productivity-2/": {
+    "file": "pages\\5-ways-vr-can-boost-workplace-productivity-2\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/2/": {
+    "file": "pages\\virtual-reality-blog\\2\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/3/": {
+    "file": "pages\\virtual-reality-blog\\3\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/4/": {
+    "file": "pages\\virtual-reality-blog\\4\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/5/": {
+    "file": "pages\\virtual-reality-blog\\5\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/6/": {
+    "file": "pages\\virtual-reality-blog\\6\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-device/": {
+    "file": "pages\\help\\how-to-add-device\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-video/": {
+    "file": "pages\\help\\how-to-add-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-publish-content/": {
+    "file": "pages\\help\\how-to-publish-content\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-make-playlist/": {
+    "file": "pages\\help\\how-to-make-playlist\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-photo-files/": {
+    "file": "pages\\help\\how-to-add-photo-files\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-create-a-category/": {
+    "file": "pages\\help\\how-to-create-a-category\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-change-a-files-2d-or-3d-status/": {
+    "file": "pages\\help\\how-to-change-a-files-2d-or-3d-status\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-change-the-title-of-a-video-or-photo-file/": {
+    "file": "pages\\help\\how-to-change-the-title-of-a-video-or-photo-file\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/what-are-preview-status-and-transcoding/": {
+    "file": "pages\\help\\what-are-preview-status-and-transcoding\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-download-content/": {
+    "file": "pages\\help\\how-to-download-content\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/create-an-interactive-video/": {
+    "file": "pages\\help\\create-an-interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/what-is-a-branched-narrative/": {
+    "file": "pages\\help\\what-is-a-branched-narrative\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-install-smart-vr-lab-on-oculus/": {
+    "file": "pages\\help\\how-to-install-smart-vr-lab-on-oculus\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/first-step-guide-to-the-smart-vr-lab-vr-cms/": {
+    "file": "pages\\help\\first-step-guide-to-the-smart-vr-lab-vr-cms\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-install-the-smart-vr-lab-app/": {
+    "file": "pages\\help\\how-to-install-the-smart-vr-lab-app\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-delete-files/": {
+    "file": "pages\\help\\how-to-delete-files\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-use-the-smart-vr-lab-app/": {
+    "file": "pages\\help\\how-to-use-the-smart-vr-lab-app\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-questions/": {
+    "file": "pages\\help\\how-to-add-questions\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-video-files/": {
+    "file": "pages\\help\\how-to-add-video-files\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/what-is-duration/": {
+    "file": "pages\\help\\what-is-duration\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/create-an-interactive-video-2/": {
+    "file": "pages\\help\\create-an-interactive-video-2\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-create-a-free-account/": {
+    "file": "pages\\help\\how-to-create-a-free-account\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-remove-my-account/": {
+    "file": "pages\\help\\how-to-remove-my-account\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-enable-developer-mode-on-oculus/": {
+    "file": "pages\\help\\how-to-enable-developer-mode-on-oculus\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-create-edit-and-delete-users/": {
+    "file": "pages\\help\\how-to-create-edit-and-delete-users\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-do-permissions-work/": {
+    "file": "pages\\help\\how-do-permissions-work\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-change-the-background-image/": {
+    "file": "pages\\help\\how-to-change-the-background-image\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/supported-filetypes/": {
+    "file": "pages\\help\\supported-filetypes\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/preview-status-transcoding-failure/": {
+    "file": "pages\\help\\preview-status-transcoding-failure\\index.html"
+  },
+  "https://www.smartvrlab.nl/helpdesk/?amp=1": {
+    "file": "pages\\helpdesk\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing": {
+    "file": "pages\\pricing\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing-interactive-video/?amp=1": {
+    "file": "pages\\pricing-interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/?amp=1": {
+    "file": "pages\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing-interactive-video?amp=1": {
+    "file": "pages\\pricing-interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing/?noamp=mobile": {
+    "file": "pages\\pricing\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/?noamp=mobile": {
+    "file": "pages\\services\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/360-video/?noamp=mobile": {
+    "file": "pages\\services\\360-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/360-video?amp=1": {
+    "file": "pages\\services\\360-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/3d-web-apps?amp=1": {
+    "file": "pages\\services\\3d-web-apps\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/augmented-reality-ar/?noamp=mobile": {
+    "file": "pages\\services\\augmented-reality-ar\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/3d-web-apps/?noamp=mobile": {
+    "file": "pages\\services\\3d-web-apps\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/augmented-reality-ar?amp=1": {
+    "file": "pages\\services\\augmented-reality-ar\\index.html"
+  },
+  "https://www.smartvrlab.nl/services/vr-webinars/?noamp=mobile": {
+    "file": "pages\\services\\vr-webinars\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/11/01/": {
+    "file": "pages\\2022\\11\\01\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-training-use-cases/": {
+    "file": "pages\\vr-training-use-cases\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list/?amp=1": {
+    "file": "pages\\what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/10/18/": {
+    "file": "pages\\2022\\10\\18\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-makes-empathy-easier/": {
+    "file": "pages\\vr-makes-empathy-easier\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-safe-is-virtual-reality-the-side-effects-of-vr/?amp=1": {
+    "file": "pages\\how-safe-is-virtual-reality-the-side-effects-of-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/10/04/": {
+    "file": "pages\\2022\\10\\04\\index.html"
+  },
+  "https://www.smartvrlab.nl/why-and-when-can-we-use-virtual-reality-training/": {
+    "file": "pages\\why-and-when-can-we-use-virtual-reality-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-is-vr-training-the-2022-guide-to-vr-training/?amp=1": {
+    "file": "pages\\what-is-vr-training-the-2022-guide-to-vr-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/09/20/": {
+    "file": "pages\\2022\\09\\20\\index.html"
+  },
+  "https://www.smartvrlab.nl/oculus-quest-2-killer/": {
+    "file": "pages\\oculus-quest-2-killer\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-is-a-virtual-reality-content-management-system/": {
+    "file": "pages\\what-is-a-virtual-reality-content-management-system\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-you-need-to-know-before-getting-vr/": {
+    "file": "pages\\what-you-need-to-know-before-getting-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-do-i-need-for-virtual-reality-a-vr-guide-for-2022/?amp=1": {
+    "file": "pages\\what-do-i-need-for-virtual-reality-a-vr-guide-for-2022\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/09/06/": {
+    "file": "pages\\2022\\09\\06\\index.html"
+  },
+  "https://www.smartvrlab.nl/difference-between-360-video-and-3d-vr/": {
+    "file": "pages\\difference-between-360-video-and-3d-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/3dof-vs-6dof-in-vr/": {
+    "file": "pages\\3dof-vs-6dof-in-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-are-the-differences-between-vr-vs-ar-vs-xr/?amp=1": {
+    "file": "pages\\what-are-the-differences-between-vr-vs-ar-vs-xr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2022/05/24/": {
+    "file": "pages\\2022\\05\\24\\index.html"
+  },
+  "https://www.smartvrlab.nl/roi-for-vr/": {
+    "file": "pages\\roi-for-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/face-tracking-vr-headset-that-knows-when-youre-overwhelmed/": {
+    "file": "pages\\face-tracking-vr-headset-that-knows-when-youre-overwhelmed\\index.html"
+  },
+  "https://www.smartvrlab.nl/5-ways-vr-can-boost-workplace-productivity-2/?amp=1": {
+    "file": "pages\\5-ways-vr-can-boost-workplace-productivity-2\\index.html"
+  },
+  "https://www.smartvrlab.nl/video-management-in-oculus/": {
+    "file": "pages\\video-management-in-oculus\\index.html"
+  },
+  "https://www.smartvrlab.nl/5-ways-vr-can-boost-workplace-productivity/": {
+    "file": "pages\\5-ways-vr-can-boost-workplace-productivity\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-biometric-data-tracking-can-do/": {
+    "file": "pages\\what-biometric-data-tracking-can-do\\index.html"
+  },
+  "https://www.smartvrlab.nl/does-vr-work-for-businesses/": {
+    "file": "pages\\does-vr-work-for-businesses\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/2/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\2\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-to-reduce-physical-risks-in-vr/": {
+    "file": "pages\\how-to-reduce-physical-risks-in-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-to-avoid-failure-with-vr/": {
+    "file": "pages\\how-to-avoid-failure-with-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/epidermal-vr-gives-technology-a-human-touch/": {
+    "file": "pages\\epidermal-vr-gives-technology-a-human-touch\\index.html"
+  },
+  "https://www.smartvrlab.nl/benefits-of-e-learning-and-vr/": {
+    "file": "pages\\benefits-of-e-learning-and-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/hand-tracking-in-vr/": {
+    "file": "pages\\hand-tracking-in-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/3/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\3\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-and-vulnerability-to-stress/": {
+    "file": "pages\\virtual-reality-and-vulnerability-to-stress\\index.html"
+  },
+  "https://www.smartvrlab.nl/mind-control-coming-to-vr/": {
+    "file": "pages\\mind-control-coming-to-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/4/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\4\\index.html"
+  },
+  "https://www.smartvrlab.nl/lms-integration-with-virtual-reality/": {
+    "file": "pages\\lms-integration-with-virtual-reality\\index.html"
+  },
+  "https://www.smartvrlab.nl/oculus-quest-3-rumours-and-likely-release-date/": {
+    "file": "pages\\oculus-quest-3-rumours-and-likely-release-date\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-to-publish/": {
+    "file": "pages\\how-to-publish\\index.html"
+  },
+  "https://www.smartvrlab.nl/the-15-best-oculus-quest-2-accessories/": {
+    "file": "pages\\the-15-best-oculus-quest-2-accessories\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-stores-oculus-vs-pico-store/": {
+    "file": "pages\\vr-stores-oculus-vs-pico-store\\index.html"
+  },
+  "https://www.smartvrlab.nl/succesvolle-investeringen-in-amsterdamse-virtual-reality-startup-maken-vr-toegankelijker-als-e-learning-tool/": {
+    "file": "pages\\succesvolle-investeringen-in-amsterdamse-virtual-reality-startup-maken-vr-toegankelijker-als-e-learning-tool\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/5/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\5\\index.html"
+  },
+  "https://www.smartvrlab.nl/facebook-faces-a-lawsuit-filed-by-ftc-for-illegal-monopolization/": {
+    "file": "pages\\facebook-faces-a-lawsuit-filed-by-ftc-for-illegal-monopolization\\index.html"
+  },
+  "https://www.smartvrlab.nl/oculus-vs-pico-vr-for-business/": {
+    "file": "pages\\oculus-vs-pico-vr-for-business\\index.html"
+  },
+  "https://www.smartvrlab.nl/invest-in-virtual-reality-with-smart-vr-lab/": {
+    "file": "pages\\invest-in-virtual-reality-with-smart-vr-lab\\index.html"
+  },
+  "https://www.smartvrlab.nl/wirelessly-sideload-oculus-go-and-quest/": {
+    "file": "pages\\wirelessly-sideload-oculus-go-and-quest\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/6/?amp=1": {
+    "file": "pages\\virtual-reality-blog\\6\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/?noamp=mobile": {
+    "file": "pages\\virtual-reality-blog\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-publish-content": {
+    "file": "pages\\help\\how-to-publish-content\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-video": {
+    "file": "pages\\help\\how-to-add-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-make-playlist": {
+    "file": "pages\\help\\how-to-make-playlist\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-add-device": {
+    "file": "pages\\help\\how-to-add-device\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/How-to-create-a-category": {
+    "file": "pages\\help\\How-to-create-a-category\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-to-create-a-category": {
+    "file": "pages\\help\\how-to-create-a-category\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-to-enable-developer-mode-oculus-go-and-quest/": {
+    "file": "pages\\how-to-enable-developer-mode-oculus-go-and-quest\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/how-do-permissions-work": {
+    "file": "pages\\help\\how-do-permissions-work\\index.html"
+  },
+  "https://www.smartvrlab.nl/help/supported-filetypes": {
+    "file": "pages\\help\\supported-filetypes\\index.html"
+  },
+  "https://www.smartvrlab.nl/helpdesk/?noamp=mobile": {
+    "file": "pages\\helpdesk\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing?amp=1": {
+    "file": "pages\\pricing\\index.html"
+  },
+  "https://www.smartvrlab.nl/pricing-interactive-video/?noamp=mobile": {
+    "file": "pages\\pricing-interactive-video\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/02/18/": {
+    "file": "pages\\2021\\02\\18\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-training-use-cases/?amp=1": {
+    "file": "pages\\vr-training-use-cases\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-basics/?amp=1": {
+    "file": "pages\\vr-basics\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-news/?amp=1": {
+    "file": "pages\\vr-news\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list/?noamp=mobile": {
+    "file": "pages\\what-industries-is-vr-used-in-the-smart-vr-lab-top-ten-list\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/03/15/": {
+    "file": "pages\\2021\\03\\15\\index.html"
+  },
+  "https://www.smartvrlab.nl/vr-makes-empathy-easier/?amp=1": {
+    "file": "pages\\vr-makes-empathy-easier\\index.html"
+  },
+  "https://www.smartvrlab.nl/using-vr/?amp=1": {
+    "file": "pages\\using-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-safe-is-virtual-reality-the-side-effects-of-vr/?noamp=mobile": {
+    "file": "pages\\how-safe-is-virtual-reality-the-side-effects-of-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2020/04/03/": {
+    "file": "pages\\2020\\04\\03\\index.html"
+  },
+  "https://www.smartvrlab.nl/why-and-when-can-we-use-virtual-reality-training/?amp=1": {
+    "file": "pages\\why-and-when-can-we-use-virtual-reality-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-is-vr-training-the-2022-guide-to-vr-training/?noamp=mobile": {
+    "file": "pages\\what-is-vr-training-the-2022-guide-to-vr-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/02/22/": {
+    "file": "pages\\2021\\02\\22\\index.html"
+  },
+  "https://www.smartvrlab.nl/oculus-quest-2-killer/?amp=1": {
+    "file": "pages\\oculus-quest-2-killer\\index.html"
+  },
+  "https://www.smartvrlab.nl/2020/04/06/": {
+    "file": "pages\\2020\\04\\06\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-is-a-virtual-reality-content-management-system/?amp=1": {
+    "file": "pages\\what-is-a-virtual-reality-content-management-system\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/04/29/": {
+    "file": "pages\\2021\\04\\29\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-you-need-to-know-before-getting-vr/?amp=1": {
+    "file": "pages\\what-you-need-to-know-before-getting-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-do-i-need-for-virtual-reality-a-vr-guide-for-2022/?noamp=mobile": {
+    "file": "pages\\what-do-i-need-for-virtual-reality-a-vr-guide-for-2022\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/02/25/": {
+    "file": "pages\\2021\\02\\25\\index.html"
+  },
+  "https://www.smartvrlab.nl/difference-between-360-video-and-3d-vr/?amp=1": {
+    "file": "pages\\difference-between-360-video-and-3d-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/03/04/": {
+    "file": "pages\\2021\\03\\04\\index.html"
+  },
+  "https://www.smartvrlab.nl/3dof-vs-6dof-in-vr/?amp=1": {
+    "file": "pages\\3dof-vs-6dof-in-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/tag/vr/?amp=1": {
+    "file": "pages\\tag\\vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-are-the-differences-between-vr-vs-ar-vs-xr/?noamp=mobile": {
+    "file": "pages\\what-are-the-differences-between-vr-vs-ar-vs-xr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/04/08/": {
+    "file": "pages\\2021\\04\\08\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-we-can-learn-from-failed-vr-projects-and-how-to-avoid-failure/": {
+    "file": "pages\\what-we-can-learn-from-failed-vr-projects-and-how-to-avoid-failure\\index.html"
+  },
+  "https://www.smartvrlab.nl/roi-for-vr/?amp=1": {
+    "file": "pages\\roi-for-vr\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/04/12/": {
+    "file": "pages\\2021\\04\\12\\index.html"
+  },
+  "https://www.smartvrlab.nl/what-biometric-data-tracking-can-do/?amp=1": {
+    "file": "pages\\what-biometric-data-tracking-can-do\\index.html"
+  },
+  "https://www.smartvrlab.nl/face-tracking-vr-headset-that-knows-when-youre-overwhelmed/?amp=1": {
+    "file": "pages\\face-tracking-vr-headset-that-knows-when-youre-overwhelmed\\index.html"
+  },
+  "https://www.smartvrlab.nl/tag/vr-training/?amp=1": {
+    "file": "pages\\tag\\vr-training\\index.html"
+  },
+  "https://www.smartvrlab.nl/5-ways-vr-can-boost-workplace-productivity-2/?noamp=mobile": {
+    "file": "pages\\5-ways-vr-can-boost-workplace-productivity-2\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/12/13/": {
+    "file": "pages\\2021\\12\\13\\index.html"
+  },
+  "https://www.smartvrlab.nl/video-management-in-oculus/?amp=1": {
+    "file": "pages\\video-management-in-oculus\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/04/22/": {
+    "file": "pages\\2021\\04\\22\\index.html"
+  },
+  "https://www.smartvrlab.nl/5-ways-vr-can-boost-workplace-productivity/?amp=1": {
+    "file": "pages\\5-ways-vr-can-boost-workplace-productivity\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/04/01/": {
+    "file": "pages\\2021\\04\\01\\index.html"
+  },
+  "https://www.smartvrlab.nl/does-vr-work-for-businesses/?amp=1": {
+    "file": "pages\\does-vr-work-for-businesses\\index.html"
+  },
+  "https://www.smartvrlab.nl/virtual-reality-blog/2/?noamp=mobile": {
+    "file": "pages\\virtual-reality-blog\\2\\index.html"
+  },
+  "https://www.smartvrlab.nl/2021/03/29/": {
+    "file": "pages\\2021\\03\\29\\index.html"
+  },
+  "https://www.smartvrlab.nl/how-to-reduce-physical-risks-in-vr/?amp=1": {
+    "file": "pages\\how-to-reduce-physical-risks-in-vr\\index.html"
+  }
+}
