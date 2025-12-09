@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report bugs or problems | Smart VR Lab Helpdesk</title>
+  <meta name="description" content="Send a clear bug report for Smart VR Lab: include device info, steps to reproduce, screenshots, and expected vs actual results." />
+  <meta property="og:title" content="Report bugs or problems" />
+  <meta property="og:description" content="Send a clear bug report for Smart VR Lab: include device info, steps to reproduce, screenshots, and expected vs actual results." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Smart VR Lab" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Manrope', 'Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+  <style>
+    .help-article h2 { font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .help-article h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .help-article p { margin-bottom: 0.75rem; line-height: 1.7; }
+    .help-article ol { list-style: decimal; padding-left: 1.25rem; }
+    .help-article strong { font-weight: 700; }
+    .help-step { padding: 1rem; border-radius: 1rem; border: 1px solid rgb(229,231,235); background: rgb(248,250,252); }
+    .help-meta { display: grid; gap: 0.5rem; }
+    @media (prefers-color-scheme: dark) {
+      .help-step { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.08); }
+    }
+  </style>
+</head>
+<body class="bg-base-100 text-base-content">
+  <div class="min-h-screen flex flex-col">
+    
+    <header class="border-b border-base-200">
+      <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+        <div class="navbar-start">
+          <a class="text-2xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-sm font-medium">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../interactive-video.html">Interactive Video</a></li>
+            <li><a href="../pricing.html">Pricing</a></li>
+            <li><a href="../virtual-reality-blog.html">Blog</a></li>
+            <li><a href="../helpdesk.html">Helpdesk</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-2">
+          <a class="btn btn-ghost btn-sm" href="../index.html#demo">Demo</a>
+          <a class="btn btn-primary btn-sm" href="../index.html#cta">Plan a call</a>
+          <div class="dropdown dropdown-end lg:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../services.html">Services</a></li>
+              <li><a href="../interactive-video.html">Interactive Video</a></li>
+              <li><a href="../pricing.html">Pricing</a></li>
+              <li><a href="../virtual-reality-blog.html">Blog</a></li>
+              <li><a href="../helpdesk.html">Helpdesk</a></li>
+              <li><a href="../index.html#cta">Plan a call</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="border-b border-base-200 bg-base-200/60">
+        <div class="max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-14">
+          <div class="flex flex-col gap-4">
+            <div class="flex flex-wrap items-center gap-3 text-xs md:text-sm text-primary">
+              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-semibold uppercase tracking-[0.18em]">
+                Helpdesk
+              </span>
+              <span class="text-base-content/70">Support</span>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">Report bugs or problems</h1>
+            <div class="help-meta text-sm text-base-content/70">
+              <span><strong class="text-base-content">Time:</strong> 2 minutes</span>
+              <span><strong class="text-base-content">Device:</strong> Web app</span>
+            </div>
+            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Share enough detail so we can reproduce and fix issues quickly.</p>
+            <div class="flex flex-wrap gap-3">
+              <a class="btn btn-primary" href="#steps">Jump to steps</a>
+              <a class="btn btn-ghost gap-2" href="../helpdesk.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
+                Back to helpdesk
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-12 md:py-16 bg-base-100">
+        <div class="max-w-5xl mx-auto px-4 md:px-8 grid lg:grid-cols-[2fr_1fr] gap-10">
+          <article class="space-y-10">
+
+            <div class="card bg-base-100 shadow-md border border-base-200 overflow-hidden">
+              <figure class="bg-base-200">
+                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/01/Schermopname-31-1024x576.png" alt="Reporting an issue in Smart VR Lab" class="w-full h-auto object-cover">
+              </figure>
+
+              <div class="card-body">
+                <div class="grid md:grid-cols-2 gap-4 text-sm text-base-content/80">
+                  <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
+                    <strong class="text-base-content">What you need</strong>
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                      <li>Device info (Quest model, browser, OS)</li>
+                      <li>Steps to reproduce</li>
+                      <li>Screenshots or screen recordings</li>
+                    </ul>
+                  </div>
+                  <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
+                    <strong class="text-base-content">Outcome</strong>
+                    <p class="mt-2">Your issue is logged with enough detail for the team to resolve.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="steps" class="help-article space-y-6">
+
+              <div class="help-step">
+                <h2>Step 1 - Capture details</h2>
+                <p>Note device, browser, and app version. Describe the expected result vs what happened.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 2 - Add steps to reproduce</h2>
+                <p>List each step leading to the issue. Include timestamps if it involves playback or publishing.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 3 - Attach visuals</h2>
+                <p>Add screenshots or short screen recordings (avoid sensitive data).</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 4 - Submit</h2>
+                <p>Email <a class="link link-primary" href="mailto:info@smartvrlab.nl">info@smartvrlab.nl</a> with the details above, or use your support channel.</p>
+              </div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-3">
+              <a class="btn btn-outline gap-2" href="../helpdesk.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
+                Back to helpdesk
+              </a>
+              <a class="btn btn-primary" href="../index.html#cta">Need more help? Contact us</a>
+            </div>
+
+          </article>
+
+          <aside class="lg:sticky lg:top-10 space-y-6">
+
+            <div class="card bg-base-200/80 border border-base-300 shadow-sm">
+              <div class="card-body space-y-3">
+                <p class="text-sm font-semibold text-base-content/70 uppercase tracking-[0.12em]">Quick links</p>
+                <ul class="space-y-2 text-sm leading-relaxed">
+                  <li><a class="link link-hover flex items-center gap-2" href="#steps"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Reporting steps</a></li>
+                  <li><a class="link link-hover flex items-center gap-2" href="../helpdesk.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>All helpdesk articles</a></li>
+                  <li><a class="link link-hover flex items-center gap-2" href="../index.html#cta"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Plan a call</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card bg-primary text-primary-content shadow-xl">
+              <div class="card-body space-y-3">
+                <p class="font-display text-lg font-bold">Need hands-on help?</p>
+                <p class="text-sm text-primary-content/80">We can hop on a call to collect logs and resolve issues faster.</p>
+                <a class="btn btn-outline border-white/40 text-primary-content hover:bg-white hover:text-primary" href="../index.html#cta">Talk to us</a>
+              </div>
+            </div>
+
+          </aside>
+
+        </div>
+      </section>
+    </main>
+
+    
+
+    <footer class="footer p-8 bg-base-200 text-base-content">
+      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
+        <div class="space-y-3">
+          <a class="text-xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
+          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Product</h4>
+          <a class="link link-hover" href="../index.html#solutions">Platform</a>
+          <a class="link link-hover" href="../index.html#features">Features</a>
+          <a class="link link-hover" href="../pricing.html">Pricing</a>
+        </div>
+        <div>
+          <h4 class="footer-title">Company</h4>
+          <a class="link link-hover" href="../index.html#about">About</a>
+          <a class="link link-hover" href="../virtual-reality-blog.html">Blog</a>
+          <a class="link link-hover" href="../helpdesk.html">Helpdesk</a>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <a class="link link-hover">info@smartvrlab.nl</a>
+          <a class="link link-hover">LinkedIn</a>
+          <a class="link link-hover">YouTube</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

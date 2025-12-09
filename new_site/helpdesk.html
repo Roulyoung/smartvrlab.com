@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -50,62 +50,244 @@
       </div>
     </header>
 
-    <main class="flex-1">      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div class="space-y-3">
-            <p class="badge badge-outline badge-primary">Helpdesk</p>
-            <h1 class="text-3xl md:text-4xl font-display font-bold">Find answers to run your VR CMS</h1>
-            <p class="text-base text-base-content/80">How to link your headset, add videos, publish to devices, create playlists, upload 360 photos, set 2D/3D status, and more.</p>
+    <main class="flex-1">
+      <section class="relative overflow-hidden border-b border-base-200 bg-gradient-to-br from-primary/10 via-base-200 to-base-100">
+        <div class="absolute inset-0 opacity-[0.12] pointer-events-none bg-[radial-gradient(circle_at_10%_20%,#38bdf8,transparent_25%),radial-gradient(circle_at_90%_10%,#a855f7,transparent_28%),radial-gradient(circle_at_15%_85%,#22c55e,transparent_20%)]"></div>
+        <div class="max-w-6xl mx-auto px-4 md:px-8 py-14 md:py-18 relative">
+          <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-10 items-start">
+            <div class="space-y-6">
+              <div class="flex flex-wrap items-center gap-3 text-sm text-primary">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-semibold uppercase tracking-[0.16em]">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v12m-6-6h12"/></svg>
+                  Helpdesk
+                </span>
+                <span class="text-xs text-base-content/70">Smart VR Lab support</span>
+              </div>
+              <div class="space-y-4">
+                <h1 class="text-4xl md:text-5xl font-display font-bold leading-tight">Find answers and ship your VR content faster</h1>
+                <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Guides for linking headsets, uploading videos, publishing to devices, building playlists, and keeping your immersive training up to date.</p>
+              </div>
+              <form id="help-search-form" class="bg-base-100/80 border border-base-200 shadow-lg rounded-2xl p-3 flex items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-base-content/70" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21-4.35-4.35M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
+                <input id="help-search-input" type="search" class="input input-ghost flex-1" placeholder="Search help... e.g. link device, publish playlist" />
+                <button type="submit" class="btn btn-primary">Search</button>
+              </form>
+              <p id="help-search-results" class="text-xs text-base-content/70"></p>
+              <div id="help-search-list" class="space-y-3"></div>
+              <div class="flex flex-wrap gap-3 text-sm">
+                <a class="badge badge-outline badge-primary" href="#setup">VR setup</a>
+                <a class="badge badge-outline badge-primary" href="#content">Content management</a>
+                <a class="badge badge-outline badge-primary" href="#publishing">Publishing</a>
+                <a class="badge badge-outline badge-primary" href="#interactivity">Interactivity</a>
+                <a class="badge badge-outline badge-primary" href="#account">Accounts</a>
+                <a class="badge badge-outline badge-primary" href="#support">Support</a>
+              </div>
+              <div class="grid sm:grid-cols-3 gap-3">
+                <div class="p-4 rounded-xl border border-base-200 bg-base-100/70 shadow-sm">
+                  <p class="text-sm font-semibold text-base-content/70">Start here</p>
+                  <p class="text-base font-display font-bold">Device setup</p>
+                  <p class="text-sm text-base-content/70">Link your headset and see it online.</p>
+                </div>
+                <div class="p-4 rounded-xl border border-base-200 bg-base-100/70 shadow-sm">
+                  <p class="text-sm font-semibold text-base-content/70">Publish</p>
+                  <p class="text-base font-display font-bold">Playlists & devices</p>
+                  <p class="text-sm text-base-content/70">Push content live with confidence.</p>
+                </div>
+                <div class="p-4 rounded-xl border border-base-200 bg-base-100/70 shadow-sm">
+                  <p class="text-sm font-semibold text-base-content/70">Create</p>
+                  <p class="text-base font-display font-bold">Video & 360 assets</p>
+                  <p class="text-sm text-base-content/70">Upload, tag, and keep quality high.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100/90 border border-base-200 shadow-xl lg:translate-y-4">
+              <div class="card-body space-y-4">
+                <p class="text-sm font-semibold text-base-content/70 uppercase tracking-[0.12em]">Need help fast?</p>
+                <p class="text-2xl font-display font-bold">Talk to our onboarding team</p>
+                <p class="text-base text-base-content/80">Get a live walkthrough to link your devices, publish your first playlist, or troubleshoot access.</p>
+                <div class="flex flex-wrap gap-3">
+                  <a class="btn btn-primary" href="index.html#cta">Plan a call</a>
+                  <a class="btn btn-ghost" href="mailto:info@smartvrlab.nl">Email support</a>
+                </div>
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-base-200/80 border border-base-300 text-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+                  <div>
+                    <p class="font-semibold">Live hours</p>
+                    <p class="text-base-content/70">Mon-Fri, 09:00-17:30 CET</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <a class="btn btn-primary btn-lg" href="index.html#cta">Need help? Talk to us</a>
+        </div>
+      </section>
+        <div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <p class="text-sm font-semibold text-primary uppercase tracking-[0.18em]">Popular walkthroughs</p>
+              <h2 class="text-2xl md:text-3xl font-display font-bold">Start with the essentials</h2>
+            </div>
+            <a class="btn btn-ghost gap-2" href="index.html#demo">
+              Book a product demo
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6" data-search-section="popular">
+            <div class="card bg-base-100 border border-base-200 shadow-md hover:shadow-lg transition-shadow" data-search="link vr headset quest code authorize setup devices pair">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-primary">Setup</div>
+                <h3 class="card-title text-lg">Link your VR headset</h3>
+                <p class="text-sm text-base-content/80">Generate the 5-digit code, pair your Quest headset, and authorize access.</p>
+                <a class="link link-primary font-semibold" href="help/how-to-link-your-vr-headset.html">Read the guide</a>
+              </div>
+            </div>
+            <div class="card bg-base-100 border border-base-200 shadow-md hover:shadow-lg transition-shadow" data-search="publish vr device authorize push content update version">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-primary">Publishing</div>
+                <h3 class="card-title text-lg">Publish to a VR device</h3>
+                <p class="text-sm text-base-content/80">Push content to an authorized headset and confirm the latest version is available.</p>
+                <a class="link link-primary font-semibold" href="help/publish-to-a-vr-device.html">Open publishing checklist</a>
+              </div>
+            </div>
+            <div class="card bg-base-100 border border-base-200 shadow-md hover:shadow-lg transition-shadow" data-search="playlist training order videos images assign teams devices">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-primary">Playlists</div>
+                <h3 class="card-title text-lg">Create a training playlist</h3>
+                <p class="text-sm text-base-content/80">Group videos and 360 images, order them, and assign to teams or devices.</p>
+                <a class="link link-primary font-semibold" href="help/create-a-playlist.html">See steps</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="py-10 md:py-14">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-2">
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Virtual Reality setup</h3>
-              <ul class="list-disc pl-5 text-base-content/80 space-y-1 text-sm">
-                <li><a class="link link-primary" href="help/how-to-link-your-vr-headset.html">How to link your VR headset</a></li>
-                <li>Install Smart VR Lab on Oculus / Meta Quest</li>
-                <li>First step guide (Oculus)</li>
-              </ul>
-            </div>
+      <section class="py-12 md:py-16 bg-base-200" id="setup">
+        <div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+          <div class="space-y-2">
+            <p class="text-sm font-semibold text-primary uppercase tracking-[0.18em]">Browse the helpdesk</p>
+            <h2 class="text-2xl md:text-3xl font-display font-bold">Guides by topic</h2>
+            <p class="text-base text-base-content/80">Follow the steps that match where you are in your rollout.</p>
           </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Content management</h3>
-              <ul class="list-disc pl-5 text-base-content/80 space-y-1 text-sm">
-                <li>Add VR video files</li>
-                <li>Upload 360 photos and immersive images</li>
-                <li>Change 2D / 3D status and titles</li>
-                <li>Preview status and transcoding</li>
-                <li>Download content</li>
-              </ul>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="card bg-base-100 shadow-md border border-base-200" data-search="virtual reality setup link headset meta quest install device code authorize">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Setup</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Headsets</span>
+                </div>
+                <h3 class="card-title text-xl">Virtual Reality setup</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  <li class="help-item" data-search="link vr headset quest code authorize"><a class="link link-primary" href="help/how-to-link-your-vr-headset.html">How to link your VR headset</a></li>
+                  <li class="help-item" data-search="install smart vr lab app meta quest oculus store"><a class="link link-primary" href="help/install-smart-vr-lab-on-meta-quest.html">Install Smart VR Lab on Meta Quest</a></li>
+                  <li class="help-item" data-search="first steps checklist devices setup"><a class="link link-primary" href="help/first-steps-checklist-for-new-devices.html">First steps checklist for new devices</a></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Publishing & playlists</h3>
-              <ul class="list-disc pl-5 text-base-content/80 space-y-1 text-sm">
-                <li>Publish to a VR device</li>
-                <li>Create a playlist</li>
-                <li>Create a category</li>
-              </ul>
+
+            <div class="card bg-base-100 shadow-md border border-base-200" id="content" data-search="content management upload video files 360 photos 2d 3d titles preview download">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Content</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Library</span>
+                </div>
+                <h3 class="card-title text-xl">Content management</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  
+                  <li class="help-item" data-search="add video upload media"><a class="link link-primary" href="help/how-to-add-video.html">How to add video</a></li>
+                  <li class="help-item" data-search="add vr video files upload media"><a class="link link-primary" href="help/add-vr-video-files.html">Add VR video files</a></li>
+                  <li class="help-item" data-search="upload 360 photos immersive images"><a class="link link-primary" href="help/upload-360-photos-and-immersive-images.html">Upload 360 photos and immersive images</a></li>
+                  <li class="help-item" data-search="change 2d 3d status titles metadata"><a class="link link-primary" href="help/change-2d-3d-status-and-titles.html">Change 2D / 3D status and titles</a></li>
+                  <li class="help-item" data-search="preview status transcoding progress"><a class="link link-primary" href="help/preview-status-and-transcoding.html">Preview status and transcoding</a></li>
+                  <li class="help-item" data-search="download content securely export"><a class="link link-primary" href="help/download-content-securely.html">Download content securely</a></li>
+                  <li class="help-item" data-search="delete files remove media clean up library"><a class="link link-primary" href="help/how-to-delete-files.html">How to delete files</a></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Interactivity</h3>
-              <ul class="list-disc pl-5 text-base-content/80 space-y-1 text-sm">
-                <li>How to make a VR interactive</li>
-                <li>What is a branched narrative?</li>
-              </ul>
+
+
+            <div class="card bg-base-100 shadow-md border border-base-200" id="account" data-search="account signup removal permissions users access">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Accounts</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Access</span>
+                </div>
+                <h3 class="card-title text-xl">Accounts & access</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  <li class="help-item" data-search="create free account signup onboarding"><a class="link link-primary" href="help/how-to-create-a-free-account.html">How to create a free account</a></li>
+                  <li class="help-item" data-search="create edit delete users invite team access roles permissions"><a class="link link-primary" href="help/how-to-create-edit-and-delete-users.html">Create, edit, and delete users</a></li>
+                  <li class="help-item" data-search="permissions roles access control"><a class="link link-primary" href="help/how-do-permissions-work.html">How do permissions work</a></li>
+                  <li class="help-item" data-search="remove delete account close access"><a class="link link-primary" href="help/how-to-remove-my-account.html">How to remove my account</a></li>
+                </ul>
+              </div>
+            </div>                        <div class="card bg-base-100 shadow-md border border-base-200" id="support" data-search="support report bug feedback help contact">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Support</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Feedback</span>
+                </div>
+                <h3 class="card-title text-xl">Support & feedback</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  <li class="help-item" data-search="report bugs issues contact support"><a class="link link-primary" href="help/report-bugs-or-problems.html">Report bugs or problems</a></li>
+                  <li class="help-item" data-search="user feedback feature request submit"><a class="link link-primary" href="help/user-feedback.html">Send user feedback</a></li>
+                </ul>
+              </div>
+            </div><div class="card bg-base-100 shadow-md border border-base-200" id="publishing" data-search="publish vr device playlist category republish updates distribution">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Publishing</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Distribution</span>
+                </div>
+                <h3 class="card-title text-xl">Publishing and playlists</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  <li class="help-item" data-search="publish to vr device authorize push content"><a class="link link-primary" href="help/publish-to-a-vr-device.html">Publish to a VR device</a></li>
+                  <li class="help-item" data-search="create playlist training order videos"><a class="link link-primary" href="help/create-a-playlist.html">Create a playlist</a></li>
+                  <li class="help-item" data-search="create category organize content"><a class="link link-primary" href="help/create-a-category.html">Create a category</a></li>
+                  <li class="help-item" data-search="update republish changes versioning"><a class="link link-primary" href="help/update-and-republish-changes.html">Update and republish changes</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-md border border-base-200" id="interactivity" data-search="interactivity branched narrative decision points learning design">
+              <div class="card-body space-y-3">
+                <div class="flex items-center gap-2">
+                  <span class="badge badge-primary badge-outline">Interactive</span>
+                  <span class="text-xs uppercase tracking-[0.14em] text-base-content/60">Learning</span>
+                </div>
+                <h3 class="card-title text-xl">Interactivity</h3>
+                <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
+                  <li class="help-item" data-search="add questions interactive quiz hotspots timeline timer points"><a class="link link-primary" href="help/how-to-add-questions.html">How to add questions</a></li>
+                  <li class="help-item" data-search="change background image interactive scene visual branding"><a class="link link-primary" href="help/how-to-change-the-background-image.html">How to change the background image</a></li>
+                  <li class="help-item" data-search="create edit delete users invite team access roles permissions"><a class="link link-primary" href="help/how-to-create-edit-and-delete-users.html">Create, edit, and delete users</a></li>
+                  <li class="help-item" data-search="permissions roles access control"><a class="link link-primary" href="help/how-do-permissions-work.html">How do permissions work</a></li>
+                  <li class="help-item" data-search="make vr interactive hotspots inputs"><a class="link link-primary" href="help/how-to-make-a-vr-interactive.html">How to make a VR interactive</a></li>
+                  <li class="help-item" data-search="what is a branched narrative branching paths"><a class="link link-primary" href="help/what-is-a-branched-narrative.html">What is a branched narrative?</a></li>
+                  <li class="help-item" data-search="design tips learner flow onboarding"><a class="link link-primary" href="help/design-tips-for-learner-flow.html">Design tips for learner flow</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </section>    </main>
+      </section>
+        <div class="max-w-6xl mx-auto px-4 md:px-8">
+          <div class="card bg-primary text-primary-content shadow-xl border border-primary/30">
+            <div class="card-body flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div class="space-y-2">
+                <p class="text-sm font-semibold uppercase tracking-[0.18em] text-primary-content/80">Still stuck?</p>
+                <h3 class="text-2xl md:text-3xl font-display font-bold">We can resolve it live</h3>
+                <p class="text-primary-content/80 max-w-2xl">Show us your screen, headset, or publishing steps and we will troubleshoot together.</p>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="btn btn-outline border-white/50 text-primary-content hover:bg-white hover:text-primary" href="index.html#cta">Plan a call</a>
+                <a class="btn btn-ghost text-primary-content" href="mailto:info@smartvrlab.nl">Email support</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
         <footer class="footer p-8 bg-base-200 text-base-content">
@@ -135,6 +317,141 @@
       </div>
     </footer>
   </div>
+  <script>
+    (() => {
+      const form = document.getElementById('help-search-form');
+      const input = document.getElementById('help-search-input');
+      const resultLabel = document.getElementById('help-search-results');
+      const resultsList = document.getElementById('help-search-list');
+
+      const articles = [
+        { title: 'How to link your VR headset', url: 'help/how-to-link-your-vr-headset.html', fallbackContent: 'Link your Meta Quest headset to Smart VR Lab. Log in to app.smartvrlab.nl, go to Devices, click Add Device, enter the 5 digit code in the headset app, name the device, and ensure it is authorized to publish content.' },
+        { title: 'Install Smart VR Lab on Meta Quest', url: 'help/install-smart-vr-lab-on-meta-quest.html', fallbackContent: 'Install the Smart VR Lab app from the Meta link, add it to your library, install on the headset, and get to the 5 digit code screen.' },
+        { title: 'First steps checklist for new devices', url: 'help/first-steps-checklist-for-new-devices.html', fallbackContent: 'Charge the headset, connect Wi-Fi, install Smart VR Lab, generate the 5 digit code, enter it on the headset, name and authorize the device.' },
+        { title: 'Add VR video files', url: 'help/add-vr-video-files.html', fallbackContent: 'Upload VR video files, set 2D or 3D, add titles, and monitor transcoding before publishing.' },
+        { title: 'Upload 360 photos and immersive images', url: 'help/upload-360-photos-and-immersive-images.html', fallbackContent: 'Add 360 photos, set projection, choose 2D or 3D, add titles, and preview rendering.' },
+        { title: 'Change 2D / 3D status and titles', url: 'help/change-2d-3d-status-and-titles.html', fallbackContent: 'Edit items to switch 2D/3D layouts, update titles and descriptions, and republish playlists if needed.' },
+        { title: 'Preview status and transcoding', url: 'help/preview-status-and-transcoding.html', fallbackContent: 'Check upload status, wait for transcoding, and use Preview to confirm playback quality.' },
+        { title: 'Download content securely', url: 'help/download-content-securely.html', fallbackContent: 'Download media from Content, confirm access, and store files in approved locations.' },
+        { title: 'Publish to a VR device', url: 'help/publish-to-a-vr-device.html', fallbackContent: 'Authorize a device, choose content, publish to the headset, and verify availability on the device.' },
+        { title: 'Create a playlist', url: 'help/create-a-playlist.html', fallbackContent: 'Create a playlist, add and order items, save, and publish to devices.' },
+        { title: 'Create a category', url: 'help/create-a-category.html', fallbackContent: 'Create categories in the library and assign items to keep content organized.' },
+        { title: 'Update and republish changes', url: 'help/update-and-republish-changes.html', fallbackContent: 'After editing items or playlists, republish to devices and verify the updated version.' },
+        { title: 'How to add questions', url: 'help/how-to-add-questions.html', fallbackContent: 'Open the interactive editor, place the timeline marker, add a question type, set timers or points, then save and preview.' },
+        { title: 'How to change the background image', url: 'help/how-to-change-the-background-image.html', fallbackContent: 'Open the interactive, upload or select a new background image, save, and preview on web and headset.' },
+        { title: 'Create, edit, and delete users', url: 'help/how-to-create-edit-and-delete-users.html', fallbackContent: 'Add teammates, adjust details and permissions, and remove users when access is no longer needed.' },
+        { title: 'How to add video', url: 'help/how-to-add-video.html', fallbackContent: 'Upload a video, set 2D/3D, add details, and let transcoding finish before publishing or using interactives.' },
+        { title: 'How to create a free account', url: 'help/how-to-create-a-free-account.html', fallbackContent: 'Sign up with your email, confirm the activation link, and log in to start uploading and linking devices.' },
+        { title: 'How to remove my account', url: 'help/how-to-remove-my-account.html', fallbackContent: 'Open account settings, request deletion, confirm, and notify your admin to reassign assets if needed.' },
+        { title: 'How to make a VR interactive', url: 'help/how-to-make-a-vr-interactive.html', fallbackContent: 'Add hotspots, actions, and branches to a VR experience, test interactions, and publish.' },
+        { title: 'What is a branched narrative?', url: 'help/what-is-a-branched-narrative.html', fallbackContent: 'Map decision points, build branches with hotspots, and test each path in your VR story.' },
+        { title: 'Design tips for learner flow', url: 'help/design-tips-for-learner-flow.html', fallbackContent: 'Orient learners, add visual anchors, pace interactions, and provide recovery paths in VR training.' },
+        { title: 'How to publish content', url: 'help/how-to-publish-content.html', fallbackContent: 'Select content or a playlist, choose authorized devices, confirm publish, and verify on the headset.' },
+        { title: 'How to use the Smart VR Lab app', url: 'help/how-to-use-the-smart-vr-lab-app.html', fallbackContent: 'Sign in on the headset, browse assigned playlists, download, and refresh to see updates.' },
+        { title: 'Supported filetypes', url: 'help/supported-filetypes.html', fallbackContent: 'Supported video (MP4 H.264/H.265), image (JPG/PNG equirectangular), and audio formats with recommended specs.' },
+        { title: 'Report bugs or problems', url: 'help/report-bugs-or-problems.html', fallbackContent: 'Share device info, steps to reproduce, expected vs actual results, and screenshots or recordings.' },
+        { title: 'Send user feedback', url: 'help/user-feedback.html', fallbackContent: 'Describe the goal, who benefits, and examples to help us prioritize your request.' },
+      ];
+
+      const index = [];
+      let indexed = false;
+      let lastQuery = '';
+
+      const setStatus = (text) => {
+        if (resultLabel) resultLabel.textContent = text;
+      };
+
+      const renderResults = (items, query) => {
+        if (!resultsList) return;
+        resultsList.innerHTML = '';
+
+        if (!query.trim()) {
+          resultsList.innerHTML = '<p class="text-sm text-base-content/70">Try searching for a helpdesk article.</p>';
+          return;
+        }
+
+        if (!items.length) {
+          resultsList.innerHTML = '<p class="text-sm text-base-content/70">No articles found. Try a different keyword.</p>';
+          return;
+        }
+
+        items.forEach((item) => {
+          const el = document.createElement('a');
+          el.href = item.url;
+          el.className = 'block card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow';
+          el.innerHTML = `
+            <div class="card-body space-y-2">
+              <p class="text-xs uppercase tracking-[0.14em] text-primary/80 font-semibold">Helpdesk article</p>
+              <p class="card-title text-lg">${item.title}</p>
+              <p class="text-sm text-base-content/80">${item.excerpt || ''}</p>
+            </div>
+          `;
+          resultsList.appendChild(el);
+        });
+      };
+
+      const search = (query) => {
+        const q = query.trim();
+        lastQuery = q;
+        if (!q) {
+          setStatus(indexed ? '' : resultLabel?.textContent || '');
+          renderResults([], q);
+          return;
+        }
+
+        if (!indexed) {
+          setStatus('Still indexing articles...');
+          return;
+        }
+
+        const tokens = q.toLowerCase().split(/\s+/).filter(Boolean);
+        const matches = index.filter((item) => tokens.every((t) => item.content.includes(t)));
+
+        setStatus(`${matches.length} article${matches.length === 1 ? '' : 's'} found`);
+        renderResults(matches, q);
+      };
+
+      const buildIndex = async () => {
+        setStatus('Indexing articles...');
+        for (const article of articles) {
+          try {
+            const res = await fetch(article.url);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const html = await res.text();
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            const bodyText = (doc.body?.innerText || '').replace(/\s+/g, ' ').trim();
+            index.push({
+              ...article,
+              content: `${article.title} ${bodyText}`.toLowerCase(),
+              excerpt: bodyText.slice(0, 200) + (bodyText.length > 200 ? '...' : ''),
+            });
+          } catch (err) {
+            console.error('Helpdesk search indexing failed', article.url, err);
+            const fallbackText = (article.fallbackContent || article.title).trim();
+            index.push({
+              ...article,
+              content: `${article.title} ${fallbackText}`.toLowerCase(),
+              excerpt: fallbackText,
+            });
+          }
+        }
+        indexed = true;
+        setStatus('');
+        if (lastQuery) search(lastQuery);
+      };
+
+      form?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        search(input?.value || '');
+      });
+
+      input?.addEventListener('input', (e) => {
+        search(e.target.value);
+      });
+
+      renderResults([], '');
+      buildIndex();
+    })();
+  </script>
 </body>
 </html>
-
