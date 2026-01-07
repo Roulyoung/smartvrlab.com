@@ -1,137 +1,236 @@
-﻿<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Video | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Interactive Video | Smart VR Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-            <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
 
-    <main class="flex-1">      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 items-center">
-          <div class="space-y-3">
-            <p class="badge badge-outline badge-primary">Interactive Video</p>
-            <h1 class="text-3xl md:text-4xl font-display font-bold">Create interactive video stories in minutes</h1>
-            <p class="text-base text-base-content/80">Turn videos into engaging e-learning with quizzes, hotspots, and branching. Manage and publish them from one CMS.</p>
-            <div class="flex gap-3">
-              <a class="btn btn-primary" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Create your free account</a>
-              <a class="btn btn-outline btn-secondary" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Live demo</a>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-lg overflow-hidden">
-            <figure class="bg-base-100">
-              <img src="../scraped_site/assets/wp-content/uploads/elementor/thumbs/Interactive-VR-Editor-pl17dw5a1o9wtyki4q5m5v2ko3x04vie0yq6zzl3ca.png" alt="Interactive editor" class="w-full h-56 object-cover">
-            </figure>
-          </div>
-        </div>
-      </section>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-10 lg:grid-cols-[1.15fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Interactive Video</p>
+<h1 class="text-3xl md:text-4xl font-display font-bold">The Interactive Video CMS</h1>
+<p class="text-base text-base-content/80">With the Smart VR Lab interactive video system, you can create and edit interactive videos easier than ever before. Transform your videos into engaging e-learning videos with a few clicks.</p>
+<div class="flex flex-wrap gap-3">
+<a class="btn btn-primary" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Create your free account</a>
+<a class="btn btn-outline" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Live demo</a>
+</div>
+<div class="grid grid-cols-3 gap-4 max-w-xl mt-4">
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Engaging</div>
+<p class="text-xs uppercase tracking-[0.18em]">Branching &amp; quizzes</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Measurable</div>
+<p class="text-xs uppercase tracking-[0.18em]">Score tracking</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Integrated</div>
+<p class="text-xs uppercase tracking-[0.18em]">LTI &amp; CMS</p>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<div class="card bg-base-100 shadow-xl overflow-hidden">
+<figure class="bg-base-300">
+<img alt="Interactive video preview" class="w-full h-64 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/ezgif.com-speed-1.gif"/>
+</figure>
+</div>
+<div class="card bg-base-100 shadow-xl overflow-hidden">
+<figure class="bg-base-100">
+<img alt="Interactive video editor" class="w-full h-56 object-cover" src="../scraped_site/assets/wp-content/uploads/elementor/thumbs/Interactive-VR-Editor-pl17dw5a1o9wtyki4q5m5v2ko3x04vie0yq6zzl3ca.png"/>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">Creating interactive video was never this easy</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Make your video more engaging</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">Create interactive video and add gadgets like multiple choice questions and extra info effortlessly.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Measure your users</h3>
+<p class="text-sm text-base-content/80">Transform your videos into tests. Become the tracking and gain insights into the scores of your employees or students.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">CMS integration</h3>
+<p class="text-sm text-base-content/80">Completely integrate the interactive videos module into your CMS. Scores will be automatically added to the page of your students.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Looking for stress-free UX?</h3>
+<p class="text-sm text-base-content/80">We keep authoring simple while still giving you all the control you need.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-10">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">From video to story</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Interactivity</h2>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md">
+<figure class="px-6 pt-6">
+<img alt="Effectivity icon" class="h-20 w-full object-contain" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2019/05/Effectivity-compressed.png"/>
+</figure>
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Share video</h3>
+<p class="text-sm text-base-content/80">Manage, host, and publish interactive video. Create interactive videos easily with the same editor.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<figure class="px-6 pt-6">
+<img alt="Cost reduction icon" class="h-20 w-full object-contain" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2019/05/Cost-Reduction-compressed.png"/>
+</figure>
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Add interactivity</h3>
+<p class="text-sm text-base-content/80">No need to outsource: insert multiple choice questions and other items. Build branched narratives for immersive learning.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<figure class="px-6 pt-6">
+<img alt="Consistency icon" class="h-20 w-full object-contain" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2019/05/Consistency-compressed.png"/>
+</figure>
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Built-in editor</h3>
+<p class="text-sm text-base-content/80">No extra software needed. Upload videos, trim the beginning and end, and own the narrative.</p>
+</div>
+</div>
+</div>
+<div class="grid gap-6 md:grid-cols-2">
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Role based access</h3>
+<p class="text-sm text-base-content/80">Access to success: give different users different permissions to oversee access to features.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">LTI connection</h3>
+<p class="text-sm text-base-content/80">Connect your LMS to Smart VR Lab and keep track of all scores of students and employees.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-5xl mx-auto px-4 md:px-8 space-y-6">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">Do you want to try?</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">For a free 4-week trial</h2>
+<p class="text-base text-base-content/70">Simply create an account and start building.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-3">
+<a class="btn btn-primary" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Start your trial</a>
+<a class="btn btn-outline" href="index.html#cta">Talk to us</a>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">What customers say</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Interactive video users</h2>
+</div>
+<div class="grid gap-6 md:grid-cols-2">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab is developing a custom 3D brain dissection app for the VUMC. Our collaboration has been very enjoyable. I was impressed by their expertise, efficiency and, especially, their creative and solution-oriented approach."</p>
+<div class="text-sm font-semibold">Prof. Dr. Pieter Voorn</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">VUMC</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab helped us to implement Virtual Reality in Spaarne Gasthuis. With their support we produce and manage our own Virtual Reality content and Smart VR Lab is ideal for managing VR hardware in a time and cost efficient manner."</p>
+<div class="text-sm font-semibold">Veerle Struben</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Sr. Adviseur Innovatie Spaarne Gasthuis</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16" id="contact-interactive">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-secondary">There's more? There's more!</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Manage everything in one place</h2>
+<p class="text-base text-base-content/80">Manage your virtual reality devices, apps and 360 video content with our VR CMS. Create interactive 360 videos and distribute them over your device fleet.</p>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">What we cover</h3>
+<ul class="list-disc pl-5 space-y-1 text-sm text-base-content/80">
+<li>Interactive video setup and training</li>
+<li>Device and content distribution guidance</li>
+<li>Analytics, LMS links, and success metrics</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg border border-primary/30">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Request a walkthrough</h3>
 
-      <section class="py-10 md:py-14">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-3">
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Add interactivity</h3>
-              <p class="text-base-content/70 text-sm">Drop in multiple choice questions, extra info, and hotspots to guide viewers.</p>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Engage learners</h3>
-              <p class="text-base-content/70 text-sm">Transform videos into measurable e-learning journeys with branching paths.</p>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Publish instantly</h3>
-              <p class="text-base-content/70 text-sm">Push interactive videos to your VR devices from the same CMS you already use.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h3 class="text-2xl font-display font-bold">Ready to make your videos interactive?</h3>
-            <p class="text-base text-base-content/80">Start free or watch the live demo.</p>
-          </div>
-          <div class="flex gap-3">
-            <a class="btn btn-primary" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Start free</a>
-            <a class="btn btn-outline btn-secondary" href="index.html#cta">Talk to us</a>
-          </div>
-        </div>
-      </section>    </main>
-
-    <!-- Footer -->
-        <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+<div class="text-sm text-base-content/60">Prefer a call? <a class="link link-primary" href="index.html#cta">Plan it here</a>.</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>

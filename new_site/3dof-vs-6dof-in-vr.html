@@ -1,14 +1,16 @@
-﻿<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>What is the difference between 3DoF vs 6DoF in VR? | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>What is the difference between 3DoF vs 6DoF in VR The comprehensive guide to Degrees of Freedom | Smart VR Lab</title>
+<meta content="Understand 3DoF vs 6DoF in VR: what each tracks, how the axes work, and when to choose one over the other." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = {
       theme: {
         extend: {
@@ -20,183 +22,125 @@
       }
     }
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-            <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main class="flex-1">
-      <section class="bg-base-200 py-12 md:py-16 border-b border-base-200">
-        <div class="max-w-4xl mx-auto px-4 md:px-8 space-y-6 text-center">
-          <p class="text-xs uppercase tracking-[0.2em] text-primary font-semibold">Blog</p>
-          <h1 class="text-4xl md:text-5xl font-display font-bold leading-tight">What is the difference between 3DoF vs 6DoF in VR? The comprehensive guide to Degrees of Freedom</h1>
-          <div class="text-sm text-base-content/70 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2">
-            <span>By adminsvr</span>
-            <span class="hidden sm:inline-block">•</span>
-            <time datetime="2021-03-04">March 4, 2021</time>
-          </div>
-          <div class="flex justify-center">
-            <a class="link link-hover text-primary" href="virtual-reality-blog.html">← Back to blog</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-12 md:py-16">
-        <div class="max-w-3xl mx-auto px-4 md:px-6 space-y-10">
-          <figure class="rounded-2xl overflow-hidden shadow-lg">
-            <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/03/Degrees-of-Freedom-Chart-01-1024x576.png" alt="DoF" class="w-full h-auto object-cover">
-          </figure>
-
-          <div class="space-y-10 text-base leading-relaxed">
-            <div class="space-y-4">
-              <p>In VR, DoF is a common abbreviation that stands for ƒ?oDegree of Freedomƒ??. The number before it shows how many different axes are being tracked: 3 or 6, 3DoF vs 6DoF. When deciding which type of VR headset to buy, it is essential to consider its DoF tracking capabilities: 3DoF is enough for 360 video, while 3D VR requires 6DoF.Aÿ</p>
-              <p>Why is a 3DoF VR sufficient for 360 degree videos? Well, in 360 degree videos, you cannot change the distance to the objects in the room. With 3DoF headsets, you can only move in 3D environments with joysticks, but not your physical motion.</p>
-              <p>If you want to make use of 3D environments, a 6DoF headset is necessary. It allows for the tracking of your physical movement by the gyroscope additionally ƒ?" thus enabling virtual movement.Aÿ</p>
-              <p>So far so good ƒ?" yet for an axe-cellent explanation, the axes are still missing. What about them? There are three main axes, the translational ones, and three secondary axes, also known as rotational. Six axes in total.</p>
-            </div>
-
-            <div class="space-y-4">
-              <p>When a VR device has 3DoF it will either be rotational or translational. But not both. A 6Dof experience, however, allows for both main as well as secondary axes. Therefore, if you want to track both the head and physical body movements, a 6DoF is definitely the best option for you</p>
-            </div>
-
-            <div class="space-y-5">
-              <h2 class="text-2xl md:text-3xl font-display font-bold">Rotational axes</h2>
-              <p>Where is your head at? Thatƒ?Ts what you can measure on rotational axes! Here again, there are three types of movement, which can be tracked by the movement of the head: rolling, yawing and pitching.</p>
-              <p>There are three types of movements in rotational axes. They can be tracked by the movement of the head. These movements are known as: rolling, pitching and yawing.</p>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Rolling (X-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh5.googleusercontent.com/gyClUyqsS5cmW0hgj_uwEZyv28tDw-EsOLUa2pEyDxZFUUS69GK0ONR4JlyqOcAZHEWea6DPBVJAcuKnlRGVsL_8ANVmbi8IUbLBFWWL3FXGWnNAdSYpB_3eOjKCdrVn34cN3G-l" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p><i>Rolling</i> describes the movement of the head from side to side, along the rotational X-axis. How to do it? Try by looking straight-forward, slowly tilt your head to right (with your right ear approaching your right shoulder) and then repeat the same movement to your left side.Aÿ</p>
-                <p>They see me rollinƒ?T ƒ?" and they lovinƒ?T!</p>
-              </div>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Yawing (Y-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh6.googleusercontent.com/k_WgNvqNNTC7SxA43icWGJgPMJSAHEnCfUyBlkpRarCBeY5oiI21ruF9YoZTuWHyh3yyArBR9FS2whRr7IqDnHJzCnn9QILSlS8Fl-GFdt0T4b9hJ-MSEWT4kM4Sxc1S8HFtNXAS" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p><i>Yawing</i> is a movement that describes the head swivelling along a horizontal axis, in this case along the rotational Y-axis. Your turn: Look straight-forward, then slowly move your head to face your right (your chin should approach your right shoulder). Now, repeat the same movement in the opposite direction to your left. Yee-yaw!</p>
-                <p><em>Aÿ</em></p>
-              </div>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Pitching (Z-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh6.googleusercontent.com/-URO6qSsHuzbxWX_SPVeycBE3AdD0o_OoPi3NvjvOvKPaVxOew-2WSoX19jIrKvlzx5GE-ryA9iyOE6sfrxhBNj1nBeb80fdIb1yk0IJ_tiduI0DLZLZ3QyrvptZd2rd8V9HnC35" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p>Hereƒ?Ts a pitch: Look straight-forward, then proceed to slowly move your head along the vertical axis to where your chin approaches your neck. Now, repeat the same movement with your ching moving away from your neck. This movement along the rotational Z-axis is known as<i> pitching</i>.Aÿ</p>
-                <p><em>Aÿ</em></p>
-              </div>
-            </div>
-
-            <div class="space-y-5">
-              <h2 class="text-2xl md:text-3xl font-display font-bold">Translational axes</h2>
-              <p>Let's get to the main course, the main axes of course: The translational axes. There are three types of movements, which can be tracked by the movement of the body. They are known as: elevating, strafing and surging.Aÿ</p>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Strafing (X-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh4.googleusercontent.com/YZUwijqqrinhfqwrXVSKbMC7idrrnnDpBAcuhAVg6RbGJZ3B0to3KBV3E344HAKOgiT_LgqNgvEulISJw2FiBIq9Db92AuWNdZUsAgsiffnYYJ8M678vgypVHSJwTWQTMopF4rg0" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p><i>Strafing</i> describes the movement along the X-axis, or in other terms, moving sideways in a straight line. Try it out by moving to the left and then to the right in a straight line - you are strafing alright!Aÿ</p>
-              </div>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Surging (Y-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh5.googleusercontent.com/5X5GX94UZI3PDezETD7I1X-6Ug74LKUskXIeBIFcnvyS1TA5tC_eR3M58GPwK6voiCEKkhgVt1Jn_ef0HNVq_2TSu_GGYlMaOnpM4J2rOQCuOY-E3fGleUL5Z6R3N16ENz6NxVAt" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p><i>Surging</i> is when you move front and back in a straight line - the movement along the translational Y-axis, so to say. This can be done by taking steps forward or backwards in a straight-line.Aÿ</p>
-              </div>
-
-              <div class="space-y-3">
-                <h3 class="text-xl font-display font-semibold">Elevating (Z-axis)</h3>
-                <div class="flex justify-center">
-                  <img src="https://lh3.googleusercontent.com/1sLe9r9VvAusiEpUU7eml9YDc2zbIl3cioaUNsygf8DrNUjoDKwWXFYQo3l-ZlWus3U6t4PRgiYWQbXe9rbxW6fHFDu1dFO393mQL8j7298HL3kzaoOO5tcuyXT9ESSHu17cTo1a" alt="" class="rounded-lg shadow-md max-h-64 object-contain">
-                </div>
-                <p><em>Elevating</em> is when you move your body vertically along the Z-axis. Well, it is in elevated terms. In practice, it can be done by jumping up and down or crouching and then getting back up. What an elevated experience.</p>
-              </div>
-            </div>
-
-            <div class="space-y-4">
-              <h2 class="text-2xl md:text-3xl font-display font-bold">3DoF vs 6DoF?</h2>
-              <p>So in summary, we need to axe-cept that the main difference between 3DoF vs 6DoF is that with 6DoF, you can track rotational as well as transitional axes. The superior choice in many ways, as you can do more and do it more seamlessly without the hassle of being confined to joysticks. So go with 6DoF - unless you are planning on only using and consuming content that doesn't need the full range of the DoF (aka 360 degree videos).Aÿ</p>
-              <p>If you made it this far, congrats! You now officially graduated from your Degree on DoF, Degrees of freedom. So now you have the freedom to explore and learn even more about Virtual Reality!Aÿ</p>
-              <p>More apps are being released daily for business training purposes. <a href="https://www.smartvrlab.nl/?amp=1" class="link link-primary">Smart VR Lab</a> is a VR CMS platform mainly focused on video content, with it's platform you can access 3D environments. To transform the way your business trains its staff, simply <a href="https://www.smartvrlab.nl/?amp=1#request" class="link link-primary">contact Smart VR Lab</a> for a demo and set up a meeting with our team.</p>
-            </div>
-
-            <div>
-              <a class="btn btn-outline" href="virtual-reality-blog.html">Back to overview</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-        <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+<div class="min-h-screen flex flex-col">
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="bg-base-200 py-12 md:py-16 border-b border-base-200">
+<div class="max-w-4xl mx-auto px-4 md:px-8 space-y-6 text-center">
+<p class="text-xs uppercase tracking-[0.2em] text-primary font-semibold">Blog</p>
+<h1 class="text-4xl md:text-5xl font-display font-bold leading-tight">What is the difference between 3DoF vs 6DoF in VR The comprehensive guide to Degrees of Freedom</h1>
+<div class="text-sm text-base-content/70 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2">
+<span>adminsvr</span>
+<span class="hidden sm:inline-block">·</span>
+<time datetime="2021-03-04T12:01:18+00:00">March 4, 2021</time>
+</div>
+<div class="flex justify-center">
+<a class="link link-hover text-primary" href="virtual-reality-blog.html">← Back to blog</a>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-3xl mx-auto px-4 md:px-6 space-y-10">
+<figure class="rounded-2xl overflow-hidden shadow-lg"><img alt="Degrees of freedom chart" class="w-full h-auto object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/03/Degrees-of-Freedom-Chart-01-1024x576.png"/></figure>
+<div class="space-y-10 text-base leading-relaxed">
+<h2 class="text-2xl md:text-3xl font-display font-bold">DoF</h2>
+<p>In VR, DoF is a common abbreviation that stands for “Degree of Freedom”. The number before it shows how many different axes are being tracked: 3 or 6, 3DoF vs 6DoF. When deciding which type of VR headset to buy, it is essential to consider its DoF tracking capabilities: 3DoF is enough for 360 video, while 3D VR requires 6DoF.</p>
+<p>Why is a 3DoF VR sufficient for 360 degree videos Well, in 360 degree videos, you cannot change the distance to the objects in the room. With 3DoF headsets, you can only move in 3D environments with joysticks, but not your physical motion.</p>
+<p>If you want to make use of 3D environments, a 6DoF headset is necessary. It allows for the tracking of your physical movement by the gyroscope additionally – thus enabling virtual movement.</p>
+<p>So far so good – yet for an axe-cellent explanation, the axes are still missing. What about them There are three main axes, the translational ones, and three secondary axes, also known as rotational. Six axes in total. When a VR device has 3DoF it will either be rotational or translational. But not both. A 6Dof experience, however, allows for both main as well as secondary axes. Therefore, if you want to track both the head and physical body movements, a 6DoF is definitely the best option for you.</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Rotational axes</h2>
+<p>Where is your head at That’s what you can measure on rotational axes! Here again, there are three types of movement, which can be tracked by the movement of the head: rolling, yawing and pitching.</p>
+<p>There are three types of movements in rotational axes. They can be tracked by the movement of the head. These movements are known as: rolling, pitching and yawing.</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Rotational axes visual" class="w-full h-auto object-cover" src="assets/3dof/img1.png"/></figure>
+<h3 class="text-xl font-display font-semibold">Rolling (X-axis)</h3>
+<p>Rolling describes the movement of the head from side to side, along the rotational X-axis. How to do it Try by looking straight-forward, slowly tilt your head to right (with your right ear approaching your right shoulder) and then repeat the same movement to your left side.</p>
+<p>They see me rollin’ – and they lovin’!</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Rolling axis illustration" class="w-full h-auto object-cover" src="assets/3dof/img2.png"/></figure>
+<h3 class="text-xl font-display font-semibold">Yawing (Y-axis)</h3>
+<p>Yawing is a movement that describes the head swivelling along a horizontal axis, in this case along the rotational Y-axis. Your turn: Look straight-forward, then slowly move your head to face your right (your chin should approach your right shoulder). Now, repeat the same movement in the opposite direction to your left. Yee-yaw!</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Yawing axis illustration" class="w-full h-auto object-cover" src="assets/3dof/img3.png"/></figure>
+<h3 class="text-xl font-display font-semibold">Pitching (Z-axis)</h3>
+<p>Here’s a pitch: Look straight-forward, then proceed to slowly move your head along the vertical axis to where your chin approaches your neck. Now, repeat the same movement with your chin moving away from your neck. This movement along the rotational Z-axis is known as pitching.</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Pitching axis illustration" class="w-full h-auto object-cover" src="assets/3dof/img4.png"/></figure>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Translational axes</h2>
+<p>Let’s get to the main course, the main axes of course: The translational axes. There are three types of movements, which can be tracked by the movement of the body. They are known as: elevating, strafing and surging.</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Translational axes visual" class="w-full h-auto object-cover" src="assets/3dof/img5.png"/></figure>
+<h3 class="text-xl font-display font-semibold">Strafing (X-axis)</h3>
+<p>Strafing describes the movement along the X-axis, or in other terms, moving sideways in a straight line. Try it out by moving to the left and then to the right in a straight line – you are strafing alright!</p>
+<figure class="rounded-xl overflow-hidden shadow max-w-xs mx-auto"><img alt="Strafing axis illustration" class="w-full h-auto object-cover" src="assets/3dof/img6.png"/></figure>
+<h3 class="text-xl font-display font-semibold">Surging (Y-axis)</h3>
+<p>Surging is when you move front and back in a straight line – the movement along the translational Y-axis, so to say. This can be done by taking steps forward or backwards in a straight-line.</p>
+<h3 class="text-xl font-display font-semibold">Elevating (Z-axis)</h3>
+<p>Elevating is when you move your body vertically along the Z-axis. Well, it is in elevated terms. In practice, it can be done by jumping up and down or crouching and then getting back up. What an elevated experience.</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">3DoF vs 6DoF</h2>
+<p>So in summary, we need to axe-cept that the main difference between 3DoF vs 6DoF is that with 6DoF, you can track rotational as well as transitional axes. The superior choice in many ways, as you can do more and do it more seamlessly without the hassle of being confined to joysticks. So go with 6DoF – unless you are planning on only using and consuming content that doesn’t need the full range of the DoF (aka 360 degree videos).</p>
+<p>If you made it this far, congrats! You now officially graduated from your Degree on DoF, Degrees of freedom. So now you have the freedom to explore and learn even more about Virtual Reality!</p>
+<p>More apps are being released daily for business training purposes. Smart VR Lab is a VR CMS platform mainly focused on video content, with its platform you can access 3D environments. To transform the way your business trains its staff, simply contact Smart VR Lab for a demo and set up a meeting with our team.</p>
+<div>
+</div>
+</div>
+</div>
+</section>
+<section class="article-related-grid"><section class="py-4 bg-base-100">
+<div class="max-w-6xl mx-auto px-4 md:px-8 flex justify-center">
+<div class="join"><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog.html">1</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-2.html">2</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-3.html">3</a></span><span class="join-item"><a class="btn btn-sm btn-primary" href="virtual-reality-blog-4.html">4</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-5.html">5</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-6.html">6</a></span></div>
+</div>
+</section><section class="py-10 md:py-14"><div class="max-w-6xl mx-auto px-4 md:px-8 space-y-10"><div class="grid gap-6 md:grid-cols-2"><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="How does VR impact your stress level?" class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/03/Stress-01.png"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="virtual-reality-and-vulnerability-to-stress.html">How does VR impact your stress level?</a></h3>
+</div>
+</div><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="What is the difference between 3DoF vs 6DoF in VR? The comprehensive guide to Degrees of Freedom" class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/03/Degrees-of-Freedom-Chart-01.png"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="3dof-vs-6dof-in-vr.html">What is the difference between 3DoF vs 6DoF in VR? The comprehensive guide to Degrees of Freedom</a></h3>
+</div>
+</div><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="What is the difference between 360° Video and 3D Virtual Reality?" class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/02/VS-Graphic-Recovered-01-01-01-01.png"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="difference-between-360-video-and-3d-vr.html">What is the difference between 360° Video and 3D Virtual Reality?</a></h3>
+</div>
+</div><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="Why choose the Oculus Quest 2 Killer for VR? (or why not) A competitor’s analysis." class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/02/Qiyu-3.jpg"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="oculus-quest-2-killer.html">Why choose the Oculus Quest 2 Killer for VR? (or why not) A competitor’s analysis.</a></h3>
+</div>
+</div><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="What are the best VR training use cases?" class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/02/VR-in-Manufacturing-and-Customer-Service-Training-4.3.18.jpg"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="vr-training-use-cases.html">What are the best VR training use cases?</a></h3>
+</div>
+</div><div class="card bg-base-100 shadow-md hover:-translate-y-1 transition">
+<figure class="h-48 overflow-hidden"><img alt="What is possible with Virtual Reality? Mind control &amp; VR" class="w-full h-full object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/02/C8983EFF-34A0-4255-91C0-106B1D3D00D4.png"/></figure>
+<div class="card-body space-y-2">
+<h3 class="card-title text-xl"><a class="link link-primary" href="mind-control-coming-to-vr.html">What is possible with Virtual Reality? Mind control &amp; VR</a></h3>
+</div>
+</div></div><div class="flex justify-center"><div class="join"><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog.html">1</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-2.html">2</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-3.html">3</a></span><span class="join-item"><a class="btn btn-sm btn-primary" href="virtual-reality-blog-4.html">4</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-5.html">5</a></span><span class="join-item"><a class="btn btn-sm" href="virtual-reality-blog-6.html">6</a></span></div></div></div></section></section></main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>

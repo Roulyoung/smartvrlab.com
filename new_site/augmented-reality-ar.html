@@ -1,131 +1,288 @@
-﻿<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Augmented Reality (AR) | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Augmented Reality (AR) | Smart VR Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-            <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
 
-    <main class="flex-1">      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 space-y-3">
-          <p class="badge badge-outline badge-primary">Augmented Reality (AR)</p>
-          <h1 class="text-3xl md:text-4xl font-display font-bold">Custom AR apps: like reality, just a little better</h1>
-          <p class="text-base text-base-content/80 max-w-3xl">Join the pARty: high-quality AR apps that turn your visions into more-than-reality.</p>
-          <div class="flex gap-3">
-            <a class="btn btn-primary" href="index.html#cta">Realize your AR project</a>
-          </div>
-        </div>
-      </section>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-10 lg:grid-cols-[1.3fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Augmented Reality (AR)</p>
+<h1 class="text-3xl md:text-4xl font-display font-bold">Custom AR apps: like reality, just a little better</h1>
+<p class="text-base text-base-content/80 max-w-3xl">High-quality AR that blends your vision with the real world for training, onboarding, and product experiences.</p>
+<div class="flex flex-wrap gap-3">
+<a class="btn btn-primary" href="index.html#cta">Realize your AR project</a>
+<a class="btn btn-outline" href="#ar-contact">Get a walkthrough</a>
+</div>
+<div class="grid grid-cols-3 gap-4 max-w-xl mt-4">
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">10+</div>
+<p class="text-xs uppercase tracking-[0.18em]">AR apps</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">3</div>
+<p class="text-xs uppercase tracking-[0.18em]">Industries</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">End-to-end</div>
+<p class="text-xs uppercase tracking-[0.18em]">Delivery</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-xl overflow-hidden">
+<figure class="bg-base-300">
+<img alt="AR concept" class="w-full h-56 object-contain p-6" src="../scraped_site/assets/wp-content/uploads/2019/05/Smart-VR-Lab-Horizontal-Black.svg"/>
+</figure>
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Augmented Reality, delivered</h3>
+<p class="text-sm text-base-content/70">Concept, design, development, and deployment with hardware guidance.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">Where AR shines</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">AR that fits your workflow</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">We tailor AR to your industry with scalable deployment and device management.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Healthcare</h3>
+<p class="text-sm text-base-content/80">Guided procedures, patient education, and hands-free workflows with compliance in mind.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Education</h3>
+<p class="text-sm text-base-content/80">Layer digital instructions over real objects; perfect for labs, maker spaces, and skills training.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Enterprise</h3>
+<p class="text-sm text-base-content/80">Product demos, remote assistance, and interactive onboarding that reduce travel and errors.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">How we deliver</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">A clear AR process</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">From idea to deployment, we keep you in the loop with tangible milestones.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">1. Concept</h3>
+<p class="text-sm text-base-content/80">Explore needs, inputs, and business case. Define the budget and expected impact.</p>
+<p class="text-xs text-base-content/60">Output: Concept and budget</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">2. Planning</h3>
+<p class="text-sm text-base-content/80">Finalize script, legal, and logistics with actors, technicians, and stakeholders.</p>
+<p class="text-xs text-base-content/60">Output: Script and timeline</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">3. Production</h3>
+<p class="text-sm text-base-content/80">Create the AR app, 3D models, voiceovers, and artwork; assemble the first version.</p>
+<p class="text-xs text-base-content/60">Output: 1st version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">4. Feedback</h3>
+<p class="text-sm text-base-content/80">We use your input to polish the final version and optimize every detail.</p>
+<p class="text-xs text-base-content/60">Output: Final version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">5. Delivery</h3>
+<p class="text-sm text-base-content/80">You receive the app in the right format and published on the medium you want.</p>
+<p class="text-xs text-base-content/60">Output: Published app</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">6. Evaluation</h3>
+<p class="text-sm text-base-content/80">We check in to ensure everything works and share relevant AR updates and recommendations.</p>
+<p class="text-xs text-base-content/60">Output: Recommendations</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.1fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Case study</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">AR with Buddy</h2>
+<p class="text-base text-base-content/80">An innovative Dutch hospital wanted to make kids’ stays less scary. They created Buddy, a friendly bird mascot, and we brought it to life in AR so children (3-9) can interact, feel at ease, and have fun.</p>
+<p class="text-base text-base-content/80">Buddy checks in with feelings, plays games, does tricks, and reads stories and jokes—turning hospital time into a playful experience.</p>
+<ul class="list-disc pl-5 space-y-2 text-sm text-base-content/80">
+<li>Augmented Reality app for Android</li>
+<li>Dynamic content for ages 3-6 and 6-9</li>
+<li>Gives young patients a Buddy in hospital</li>
+<li>Features games, stories, and jokes</li>
+</ul>
+</div>
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="Buddy AR case visuals" class="w-full h-96 object-contain p-4" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/01/Phone-Buddy-AR.png"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.1fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Sample AR rollout</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">From idea to deployed app</h2>
+<ul class="list-disc pl-5 space-y-2 text-sm text-base-content/80">
+<li>Use case mapping and interaction design</li>
+<li>Prototype, iterate, and validate with users</li>
+<li>Performance tuning and device guidance</li>
+<li>Deployment, training, and analytics</li>
+</ul>
+</div>
+<div class="card bg-base-100 shadow-lg">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Need a walkthrough?</h3>
+<p class="text-sm text-base-content/70">We'll show you live AR examples and how they fit your goals.</p>
+<a class="btn btn-primary" href="#ar-contact">Request a demo</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16" id="ar-contact">
+<div class="max-w-5xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.1fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-secondary">Start your AR project</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Tell us what you need</h2>
+<p class="text-base text-base-content/80">Share your use case and we’ll outline scope, devices, and timelines.</p>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">What we cover</h3>
+<ul class="list-disc pl-5 space-y-1 text-sm text-base-content/80">
+<li>Feasibility and interaction model</li>
+<li>Design and content requirements</li>
+<li>Deployment and success metrics</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg border border-primary/30">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Request a walkthrough</h3>
 
-      <section class="py-10 md:py-14">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-2">
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Augmented Reality Apps</h3>
-              <p class="text-sm text-base-content/70">Creative + technical expertise to deliver the AR experience your company needs.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>Custom AR design and development</li>
-                <li>High-quality visuals and performance</li>
-                <li>End-to-end guidance</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Top industries</h3>
-              <p class="text-sm text-base-content/70">Healthcare, education, enterprise—and more on request.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>Product demos and visualization</li>
-                <li>Training and onboarding</li>
-                <li>Interactive experiences</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h3 class="text-2xl font-display font-bold">Ready to build your AR app?</h3>
-            <p class="text-base text-base-content/80">Let’s plan it together.</p>
-          </div>
-          <a class="btn btn-primary" href="index.html#cta">Book a call</a>
-        </div>
-      </section>    </main>
-
-    <!-- Footer -->
-        <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+<div class="text-sm text-base-content/60">Prefer a call? <a class="link link-primary" href="index.html#cta">Plan it here</a>.</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">What customers say</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">AR work people love</h2>
+</div>
+<div class="grid gap-6 md:grid-cols-2">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab helped us to implement Virtual and Augmented Reality in Spaarne Gasthuis. With their support we produce and manage our own Virtual Reality content."</p>
+<div class="text-sm font-semibold">Innovation Lead - Healthcare</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">More services</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Build your immersive stack</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">Combine AR with VR and 3D to deliver full-spectrum experiences.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">VR Webinars</h3>
+<p class="text-sm text-base-content/80">Educate teams on VR and AR strategy with tailored sessions.</p>
+<a class="btn btn-primary btn-sm w-full" href="vr-webinars.html">View VR Webinars</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">360 Video</h3>
+<p class="text-sm text-base-content/80">High-end production and interactive overlays for training and storytelling.</p>
+<a class="btn btn-primary btn-sm w-full" href="360-video.html">Explore 360 Video</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">3D Web Apps</h3>
+<p class="text-sm text-base-content/80">Deliver interactive 3D experiences in the browser with no installs.</p>
+<a class="btn btn-primary btn-sm w-full" href="3d-web-apps.html">View 3D web apps</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>
-

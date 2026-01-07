@@ -1,131 +1,294 @@
-﻿<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3D Web Apps | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>3D Web Apps | Smart VR Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-            <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
 
-    <main class="flex-1">      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 space-y-3">
-          <p class="badge badge-outline badge-primary">3D Web Apps</p>
-          <h1 class="text-3xl md:text-4xl font-display font-bold">App-solutely innovative 3D web apps</h1>
-          <p class="text-base text-base-content/80 max-w-3xl">Unity-powered web apps for AR and VR, accessible in any browser. The internet is your playground.</p>
-          <div class="flex gap-3">
-            <a class="btn btn-primary" href="index.html#cta">Get started now</a>
-          </div>
-        </div>
-      </section>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-10 lg:grid-cols-[1.2fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">3D Web Apps</p>
+<h1 class="text-3xl md:text-4xl font-display font-bold">App-solutely innovative: our 3D Web Apps.</h1>
+<p class="text-base text-base-content/80">The web is changing—be the change. We create high quality 3D web apps with Unity 3D to make your vision come to life.</p>
+<p class="text-base text-base-content/80">For Augmented Reality and Virtual Reality—all content easily accessible with any browser. The internet is your playground.</p>
+<div class="flex flex-wrap gap-3">
+<a class="btn btn-primary" href="index.html#cta">Get started now</a>
+<a class="btn btn-outline" href="#live-demo">See the live app</a>
+</div>
+<div class="grid grid-cols-3 gap-4 max-w-xl mt-4">
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Browser</div>
+<p class="text-xs uppercase tracking-[0.18em]">Web, AR, VR</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Unity</div>
+<p class="text-xs uppercase tracking-[0.18em]">3D engine</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">140+</div>
+<p class="text-xs uppercase tracking-[0.18em]">Structures</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-xl overflow-hidden">
+<figure class="bg-base-300">
+<img alt="Smart VR Lab 3D web app with brain anatomy" class="w-full h-64 md:h-80 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/01/neuro-anatomy-app-clean-1024x577.png"/>
+</figure>
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Unity-powered 3D in the browser</h3>
+<p class="text-sm text-base-content/70">High quality 3D models and smooth performance accessible from any device.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">What industries we work in</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">3D Web App Production</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">We develop Unity 3D webapps: make use of the power of 3D models and lead the way for your industry.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Healthcare</h3>
+<p class="text-sm text-base-content/80">In healthcare, data and 3D models offer great benefits to medical professionals and patients. Implement web apps to make these benefits easily available.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Education</h3>
+<p class="text-sm text-base-content/80">Enrich educational content with 3D models of complex material. Make learning come to life in a way that has never been done before.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Marketing</h3>
+<p class="text-sm text-base-content/80">What better way to catch people in your web than to innovate on the web itself? Create 3D web apps for your campaigns to enter a whole new reality of marketing.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Case study</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Amsterdam Medical Centre</h2>
+<p class="text-base text-base-content/80">Amsterdam University Medical Centre is one of the top leading Dutch institution when it comes to training psychology, pharmacy and neurology students. They looked for a way to streamline their brain-anatomy course to not only make it more accessible, but to also create a more realistic learning experience.</p>
+<p class="text-base text-base-content/80">After some literal brainstorming, together we came up with a 3D application that provides a map with all structures of the brain. It not only displays the anatomy in great detail, it also include a quiz mode for students to rehearse and test themselves.</p>
+<ul class="list-disc pl-5 space-y-2 text-sm text-base-content/80">
+<li>Web app accessible through all browsers</li>
+<li>Contains over 140 brain structures</li>
+<li>Interactive quiz mode to grade students</li>
+<li>Worldwide used by universities</li>
+</ul>
+</div>
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-300">
+<img alt="3D brain anatomy web app in browser" class="w-full h-80 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/02/Schermopname-92-1024x608.png"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16" id="live-demo">
+<div class="max-w-5xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-secondary">A no-brainer</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Try the live version of the app here</h2>
+<p class="text-base text-base-content/80">Explore the interactive 3D brain map right in your browser and see how quiz mode reinforces learning.</p>
+<div class="flex flex-wrap gap-3">
+<a class="btn btn-primary" href="https://3d.anatomy-neurosciences.com/" rel="noopener" target="_blank">Open live app</a>
+<a class="btn btn-outline" href="index.html#cta">Book a call</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="Interface of the 3D web app brain structure experience" class="w-full h-80 object-contain p-6" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/05/smartVRlab3DWebAppsBrainStructureApplication-768x512.png"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">Our happy customers</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">What customers say</h2>
+<p class="text-base text-base-content/70">We deliver quality. But do not take our word for it.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-2">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab developed a custom 3D brain dissection app for the VUMC. Our collaboration has been very enjoyable. I was impressed by their expertise, efficiency and, especially, their creative and solution-oriented approach."</p>
+<div class="text-sm font-semibold">Pieter Voorn</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Prof. Dr. Neuroscience</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab helped us to implement Virtual Reality in Spaarne Gasthuis. With their support we produce and manage our own Virtual Reality content."</p>
+<div class="text-sm font-semibold">Veerle Struben</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Spaarne Gasthuis Hospital</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-secondary">Want to start a project together?</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Tell us about your project</h2>
+<p class="text-base text-base-content/80">Tell us about your project and our experts will get back to you. Or book a call so we can discuss your ideas directly.</p>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">What we cover</h3>
+<ul class="list-disc pl-5 space-y-1 text-sm text-base-content/80">
+<li>Use case scope and required 3D assets</li>
+<li>Deployment options for web, AR, or VR</li>
+<li>Timelines, budget, and success measures</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg border border-primary/30" id="contact-3d">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Request a walkthrough</h3>
 
-      <section class="py-10 md:py-14">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-2">
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">3D Web App Production</h3>
-              <p class="text-sm text-base-content/70">Unity 3D webapps with powerful 3D models for your industry.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>Healthcare and medical visualization</li>
-                <li>Education and training</li>
-                <li>Custom AR/VR-enabled experiences</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Why 3D on the web</h3>
-              <p class="text-sm text-base-content/70">Be the change: deliver high-quality 3D in the browser without friction.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>Accessible on any modern browser</li>
-                <li>Supports AR and VR contexts</li>
-                <li>Built for scalability and performance</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h3 class="text-2xl font-display font-bold">Want a live 3D web app demo?</h3>
-            <p class="text-base text-base-content/80">We’ll show you what’s possible for your use case.</p>
-          </div>
-          <a class="btn btn-primary" href="index.html#cta">Book a call</a>
-        </div>
-      </section>    </main>
-
-    <!-- Footer -->
-        <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+<div class="text-sm text-base-content/60">Prefer a call? <a class="link link-primary" href="index.html#cta">Plan it here</a>.</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">This is how we work</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Our Process</h2>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">1. Concept</h3>
+<p class="text-sm text-base-content/80">We explore what your needs are and what input you have. We create a budget and calculate the business case.</p>
+<p class="text-xs text-base-content/60">Output: Concept en budget</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">2. Planning</h3>
+<p class="text-sm text-base-content/80">We finalize the script, legal matters and plan everything with the technicians, management and possible stakeholders.</p>
+<p class="text-xs text-base-content/60">Output: Script and timeline</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">3. Production</h3>
+<p class="text-sm text-base-content/80">We develop the 3D models, artwork and all other technical solutions needed. Then we build it and create the first version.</p>
+<p class="text-xs text-base-content/60">Output: 1st version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">4. Feedback</h3>
+<p class="text-sm text-base-content/80">We use your input and feedback to create the final version and optimize all technical issues.</p>
+<p class="text-xs text-base-content/60">Output: Final version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">5. Delivery</h3>
+<p class="text-sm text-base-content/80">We publish on the medium you want: web, augmented reality or virtual reality.</p>
+<p class="text-xs text-base-content/60">Output: Published production</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">6. Evaluation</h3>
+<p class="text-sm text-base-content/80">We want to make sure everything is working out with the project and inform you about relevant updates regarding 3D web apps.</p>
+<p class="text-xs text-base-content/60">Output: Recommendations</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">Our services</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Whatever you need</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">Whatever you need! Our tip: sometimes a combination proves even more effective.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">360 Video</h3>
+<p class="text-sm text-base-content/80">Revolutionize your B2B training and art projects—provide immersive experiences with the help our interactive 360 videos. We provide the creative expertise to bring your ideas to life.</p>
+<a class="btn btn-primary btn-sm w-full" href="360-video.html">Explore 360 Video</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">AR</h3>
+<p class="text-sm text-base-content/80">There are no limits: turn your visions into reality—Augmented Reality. AR e you ready for it? Then let us build the future together.</p>
+<a class="btn btn-primary btn-sm w-full" href="augmented-reality-ar.html">See AR services</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Workshops</h3>
+<p class="text-sm text-base-content/80">It is virtually impossible to understand Virtual Reality? We got you: learn everything about 360 video and VR with our comprehensive workshops and webinars.</p>
+<a class="btn btn-primary btn-sm w-full" href="vr-webinars.html">View webinars</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>
-

@@ -1,131 +1,283 @@
-﻿<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>360 Video | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>360 Video | Smart VR Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-            <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="index.html#demo">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
 
-    <main class="flex-1">      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col gap-3">
-          <p class="badge badge-outline badge-primary">360 Video</p>
-          <h1 class="text-3xl md:text-4xl font-display font-bold">High-end 360 video production</h1>
-          <p class="text-base text-base-content/80 max-w-3xl">Creative expertise, high resolution, pro audio, and custom interactive elements to bring your ideas to life.</p>
-          <div class="flex gap-3">
-            <a class="btn btn-primary" href="index.html#cta">Turn your project into reality</a>
-          </div>
-        </div>
-      </section>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-10 lg:grid-cols-[1.2fr_1fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">360 Video</p>
+<h1 class="text-3xl md:text-4xl font-display font-bold">High-end 360 video</h1>
+<p class="text-base text-base-content/80">In need of a high quality 360 video? Stop looking, Smart VR Lab is here to help. We provide the creative expertise to bring your ideas to life: with high resolution, professional audio and interactive elements that are custommade for you.</p>
+<p class="text-base text-base-content/80">The virtual real deal.</p>
+<div class="flex flex-wrap gap-3">
+<a class="btn btn-primary" href="index.html#cta">Turn your project into reality</a>
+<a class="btn btn-outline" href="#contact-360">Discuss your idea</a>
+</div>
+<div class="grid grid-cols-3 gap-4 max-w-xl mt-4">
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">High-res</div>
+<p class="text-xs uppercase tracking-[0.18em]">360 capture</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Pro audio</div>
+<p class="text-xs uppercase tracking-[0.18em]">Spatial sound</p>
+</div>
+</div>
+<div class="card bg-primary text-primary-content shadow-md">
+<div class="card-body p-4 space-y-1 text-center">
+<div class="text-2xl font-display font-bold">Interactive</div>
+<p class="text-xs uppercase tracking-[0.18em]">Custom overlays</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-xl overflow-hidden">
+<figure class="bg-base-300">
+<img alt="High-end 360 video camera" class="w-full h-64 md:h-80 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/01/photo_2022-01-11_16-17-03-768x598.jpg"/>
+</figure>
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">High quality capture</h3>
+<p class="text-sm text-base-content/70">Professional 360 rig, audio, and custom interactivity to fit your story.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">What industries we work in</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">360 Video Production</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">We create 360 video experiences for multiple industries. Is your industry not included? Do not fret, we can still help you.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Healthcare</h3>
+<p class="text-sm text-base-content/80">We care because you care: healthcare has many use cases for 360 video and virtual reality. Both for patients and workers it keeps proving beneficial.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Education</h3>
+<p class="text-sm text-base-content/80">VR training is the future. Enrich your educational content with virtual reality from 3rd parties or create your own 360 video content with your students.</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Marketing</h3>
+<p class="text-sm text-base-content/80">Create marketing campaigns that stand out. Measure the behaviour of your target audience and let them influence your interactive storyline.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Case study</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Spaarne Gasthuis</h2>
+<p class="text-base text-base-content/80">A leading-edge Dutch hospital had the idea to introduce a more efficient way to onboard their staff — with virtual reality training and 360 video.</p>
+<p class="text-base text-base-content/80">The main goal being to save time in the training process, so that workers can spend it on more urgent matters. This is what we ended up doing to successfully reach that goal: together, we created an interactive VR onboarding experience that all new ICU staff has to complete.</p>
+<ul class="list-disc pl-5 space-y-2 text-sm text-base-content/80">
+<li>Manual tour replaced with VR tour</li>
+<li>Experience is used every week</li>
+<li>Saves up hours of work for staff</li>
+<li>Implemented in other location as well</li>
+</ul>
+</div>
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-300">
+<img alt="360 video onboarding experience" class="w-full h-80 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/01/reanimatie.png"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">What customers say</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">We deliver quality</h2>
+<p class="text-base text-base-content/70">But do not take our word for it.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab developed a custom 3D brain dissection app for the VUMC. Our collaboration has been very enjoyable. I was impressed by their expertise, efficiency and, especially, their creative and solution-oriented approach."</p>
+<div class="text-sm font-semibold">Pieter Voorn</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Prof. Dr. Neuroscience</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab and I collaborated on four short immersive linear 360 videos with a soundscape. They were filmed during the four seasons. It was a challenge to capture the videos in many different circumstances. They did great."</p>
+<div class="text-sm font-semibold">Sophie Steengracht</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Visual Artist</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-3">
+<p class="text-base text-base-content/80">"Smart VR Lab helped us to implement Virtual Reality in Spaarne Gasthuis. With their support we produce and manage our own Virtual Reality content."</p>
+<div class="text-sm font-semibold">Veerle Struben</div>
+<div class="text-xs uppercase tracking-[0.16em] text-base-content/60">Spaarne Gasthuis Hospital</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16" id="contact-360">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 lg:grid-cols-[1.05fr_1fr] items-start">
+<div class="space-y-4">
+<p class="badge badge-outline badge-secondary">Want to start a project together?</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Tell us about your project</h2>
+<p class="text-base text-base-content/80">Tell us about your project and our experts will get back to you. Or book a call so we can discuss your ideas directly.</p>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">What we cover</h3>
+<ul class="list-disc pl-5 space-y-1 text-sm text-base-content/80">
+<li>Use case scope and required shoots</li>
+<li>Deployment options for VR onboarding or storytelling</li>
+<li>Timelines, budget, and success measures</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg border border-primary/30">
+<div class="card-body space-y-3">
+<h3 class="text-xl font-display font-semibold">Request a walkthrough</h3>
 
-      <section class="py-10 md:py-14">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-2">
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">360 Video Production</h3>
-              <p class="text-sm text-base-content/70">Interactive 360 experiences for multiple industries. Custom-made for training, art, and immersive storytelling.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>High-resolution visuals & pro audio</li>
-                <li>Interactive overlays and branching</li>
-                <li>Built for VR training and engagement</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-md">
-            <div class="card-body space-y-2">
-              <h3 class="card-title text-xl">Who we work with</h3>
-              <p class="text-sm text-base-content/70">Healthcare, education, enterprise—plus your industry next.</p>
-              <ul class="list-disc pl-5 text-sm text-base-content/80 space-y-1">
-                <li>B2B training & onboarding</li>
-                <li>Art and experiential projects</li>
-                <li>Custom requests welcome</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h3 class="text-2xl font-display font-bold">Need a 360 video partner?</h3>
-            <p class="text-base text-base-content/80">Let’s scope your project and timelines.</p>
-          </div>
-          <a class="btn btn-primary" href="index.html#cta">Book a call</a>
-        </div>
-      </section>    </main>
-
-    <!-- Footer -->
-        <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+<div class="text-sm text-base-content/60">Prefer a call? <a class="link link-primary" href="index.html#cta">Plan it here</a>.</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-primary">This is how we work</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Our Process</h2>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">1. Concept</h3>
+<p class="text-sm text-base-content/80">We explore your needs and the input you have. We create a budget and calculate the business case.</p>
+<p class="text-xs text-base-content/60">Output: Concept en budget</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">2. Planning</h3>
+<p class="text-sm text-base-content/80">We finalize the script, legal matters and plan everything with the actors, crew and possible stakeholders.</p>
+<p class="text-xs text-base-content/60">Output: Script and callsheet</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">3. Production</h3>
+<p class="text-sm text-base-content/80">We record all audio and video with high-quality gear. Then we edit it and create the first version.</p>
+<p class="text-xs text-base-content/60">Output: 1st version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">4. Re-edit</h3>
+<p class="text-sm text-base-content/80">We use your input and feedback to create the final version and optimize all audio and colors.</p>
+<p class="text-xs text-base-content/60">Output: Final version</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">5. Delivery</h3>
+<p class="text-sm text-base-content/80">You receive your production in the right format and published on the medium you want.</p>
+<p class="text-xs text-base-content/60">Output: Published production</p>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md border border-base-200">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">6. Evaluation</h3>
+<p class="text-sm text-base-content/80">We want to make sure everything is working out with the project and inform you about relevant updates in the VR market.</p>
+<p class="text-xs text-base-content/60">Output: Recommendations</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-8">
+<div class="space-y-2 text-center">
+<p class="badge badge-outline badge-secondary">Our Services</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Whatever you need</h2>
+<p class="text-base text-base-content/70 max-w-3xl mx-auto">Whatever you need: sometimes a combination proves even more effective.</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">AR</h3>
+<p class="text-sm text-base-content/80">There are no limits: turn your visions into more than reality — Augmented Reality. Let us create immersive experiences that are built differently. AR e you ready for it? Then let us build the future together.</p>
+<a class="btn btn-primary btn-sm w-full" href="augmented-reality-ar.html">See AR services</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">3D Web Apps</h3>
+<p class="text-sm text-base-content/80">We combine the power of 3D and web technology to create unforgettable experiences — that are easily accessible on the internet. Convince yourself of our app titude.</p>
+<a class="btn btn-primary btn-sm w-full" href="3d-web-apps.html">View 3D web apps</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-md">
+<div class="card-body space-y-2">
+<h3 class="text-xl font-display font-semibold">Workshops</h3>
+<p class="text-sm text-base-content/80">It is virtually impossible to understand Virtual Reality? We got you: learn everything about 360 video, VR and its opportunities with our comprehensive workshops and webinars.</p>
+<a class="btn btn-primary btn-sm w-full" href="vr-webinars.html">View webinars</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>
-

@@ -1,201 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | Smart VR Lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services | Smart VR Lab</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'], display: ['Manrope','Inter','sans-serif'] }}}}
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
+<link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
 </head>
 <body class="bg-base-100 text-base-content">
-  <div class="min-h-screen flex flex-col">
-    <!-- Navbar -->
-    <header class="border-b border-base-200">
-      <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-        <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="interactive-video.html">Interactive Video</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="virtual-reality-blog.html">Blog</a></li>
-            <li><a href="helpdesk.html">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-2">
-          <a class="btn btn-ghost btn-sm" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Demo</a>
-          <a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
-          <div class="dropdown dropdown-end lg:hidden">
-            <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="interactive-video.html">Interactive Video</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="virtual-reality-blog.html">Blog</a></li>
-              <li><a href="helpdesk.html">Helpdesk</a></li>
-              <li><a href="index.html#cta">Plan a call</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="border-b border-base-200">
+<div class="navbar max-w-6xl mx-auto px-4 md:px-8">
+<div class="navbar-start">
+<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<li><a href="interactive-video.html">Interactive Video</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="virtual-reality-blog.html">Blog</a></li>
+<li><a href="helpdesk.html">Helpdesk</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-2">
+<a class="btn btn-ghost btn-sm" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Demo</a>
+<a class="btn btn-primary btn-sm" href="index.html#cta">Plan a call</a>
 
-    <main class="flex-1">
-      <section class="py-10 md:py-12 bg-base-200">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 md:grid-cols-[1.1fr,0.9fr] items-center">
-          <div class="space-y-4">
-            <p class="badge badge-outline badge-primary">Services</p>
-            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">More than CMS: we produce and build VR/AR</h1>
-            <p class="text-base text-base-content/80">We do everything VR content production: 360 video production, Augmented Reality apps, 3D web applications, and VR webinars.</p>
-            <div class="flex gap-3">
-              <a class="btn btn-primary btn-lg" href="index.html#cta">Book a call</a>
-              <a class="btn btn-ghost btn-lg" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Start free trial</a>
-            </div>
-          </div>
-          <div class="bg-base-100 rounded-2xl shadow-lg p-6 flex items-center justify-center">
-            <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/elementor/thumbs/smart-vr-logo-bril-01-pl17f7553oiinn1ccm3jgl6x2dyi207wat5sqxqvuy.png" alt="Smart VR Lab services" class="w-full h-auto max-h-72 object-contain">
-          </div>
-        </div>
-      </section>
-
-      <section class="py-12 md:py-16">
-        <div class="max-w-6xl mx-auto px-4 md:px-8 space-y-12">
-          <div class="space-y-3 text-center">
-            <p class="badge badge-outline badge-primary">Explore our services</p>
-            <h2 class="text-3xl md:text-4xl font-display font-bold">Production and experiences tailored to you</h2>
-          </div>
-
-          <div class="grid gap-8">
-            <div class="grid md:grid-cols-2 gap-6 items-center">
-              <div class="card bg-base-100 shadow-lg overflow-hidden">
-                <figure class="bg-base-200">
-                  <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/04/showtime-1024x462.png" alt="Interactive 360 video production" class="w-full h-64 object-cover">
-                </figure>
-              </div>
-              <div class="space-y-3">
-                <p class="badge badge-outline">360 Video</p>
-                <h3 class="text-2xl font-display font-semibold">Interactive 360° video production</h3>
-                <p class="text-base text-base-content/80">Revolutionize your B2B training and art projects — provide immersive experiences with our interactive 360 videos.</p>
-                <div class="flex gap-3">
-                  <a class="btn btn-primary btn-sm" href="360-video.html">360 Video</a>
-                  <a class="link link-primary" href="interactive-video.html">See interactive video</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6 items-center md:flex-row-reverse">
-              <div class="card bg-base-100 shadow-lg overflow-hidden">
-                <figure class="bg-base-200">
-                  <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/08/AR-1024x576.png" alt="Augmented reality apps" class="w-full h-64 object-cover">
-                </figure>
-              </div>
-              <div class="space-y-3">
-                <p class="badge badge-outline">Augmented Reality</p>
-                <h3 class="text-2xl font-display font-semibold">AR apps without limits</h3>
-                <p class="text-base text-base-content/80">There are no limits: turn your visions into reality — Augmented Reality. AR you ready for it? Then let’s build the future together.</p>
-                <div class="flex gap-3">
-                  <a class="btn btn-primary btn-sm" href="augmented-reality-ar.html">Augmented Reality</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6 items-center">
-              <div class="card bg-base-100 shadow-lg overflow-hidden">
-                <figure class="bg-base-200">
-                  <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/elementor/thumbs/neuro-anatomy-app-clean-pisqrxzpc22riegzybyxk3ffid4ndwt3wf7qcdmwui.png" alt="3D web application example" class="w-full h-64 object-cover">
-                </figure>
-              </div>
-              <div class="space-y-3">
-                <p class="badge badge-outline">3D Web Apps</p>
-                <h3 class="text-2xl font-display font-semibold">3D web applications</h3>
-                <p class="text-base text-base-content/80">We combine the power of 3D and web technology to create unforgettable experiences that are easily accessible on the internet. Convince yourself of our app-titude.</p>
-                <div class="flex gap-3">
-                  <a class="btn btn-primary btn-sm" href="3d-web-apps.html">3D Web Apps</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6 items-center md:flex-row-reverse">
-              <div class="card bg-base-100 shadow-lg overflow-hidden">
-                <figure class="bg-base-200">
-                  <img src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/04/VR-CMS-content-management-07-1024x724.png" alt="VR webinars and workshops" class="w-full h-64 object-cover">
-                </figure>
-              </div>
-              <div class="space-y-3">
-                <p class="badge badge-outline">VR Webinars</p>
-                <h3 class="text-2xl font-display font-semibold">VR webinars & workshops</h3>
-                <p class="text-base text-base-content/80">Interactive sessions to get your team aligned on VR strategy, content workflows, and headset rollout best practices.</p>
-                <div class="flex gap-3">
-                  <a class="btn btn-primary btn-sm" href="vr-webinars.html">VR Webinars</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-12 md:py-16 bg-base-200">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-[1.2fr,0.8fr] items-center">
-          <div class="space-y-3">
-            <h3 class="text-2xl md:text-3xl font-display font-bold">Ready to build your next immersive experience?</h3>
-            <p class="text-base text-base-content/80">Tell us what you want to create. We’ll help shape the right format (360, AR, 3D web, webinar) and ship it with the VR CMS for distribution.</p>
-            <div class="flex gap-3">
-              <a class="btn btn-primary" href="index.html#cta">Plan a call</a>
-              <a class="btn btn-outline btn-secondary" href="https://app.smartvrlab.nl/users/register" target="_blank" rel="noopener">Start free trial</a>
-            </div>
-          </div>
-          <div class="card bg-base-100 shadow-lg">
-            <div class="card-body">
-              <h4 class="card-title">What we can help with</h4>
-              <ul class="space-y-2 text-sm text-base-content/80 list-disc list-inside">
-                <li>Storyboarding, scripting, and production for 360 video</li>
-                <li>Custom AR apps for patient journeys, training, or marketing</li>
-                <li>3D web apps that run in-browser without installs</li>
-                <li>VR webinar facilitation and rollout playbooks</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer p-8 bg-base-200 text-base-content">
-      <div class="max-w-6xl w-full mx-auto grid gap-8 md:grid-cols-4">
-        <div class="space-y-3">
-          <a class="text-xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
-          <p class="text-sm text-base-content/70">VR CMS to create, manage, and distribute immersive training.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Product</h4>
-          <a class="link link-hover" href="index.html#solutions">Platform</a>
-          <a class="link link-hover" href="index.html#features">Features</a>
-          <a class="link link-hover" href="pricing.html">Pricing</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <a class="link link-hover" href="index.html#about">About</a>
-          <a class="link link-hover" href="virtual-reality-blog.html">Blog</a>
-          <a class="link link-hover" href="helpdesk.html">Helpdesk</a>
-        </div>
-        <div>
-          <h4 class="footer-title">Contact</h4>
-          <a class="link link-hover">info@smartvrlab.nl</a>
-          <a class="link link-hover">LinkedIn</a>
-          <a class="link link-hover">YouTube</a>
-        </div>
-      </div>
-    </footer>
-  </div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-10 md:py-12 bg-base-200">
+<div class="max-w-6xl mx-auto px-4 md:px-8 grid gap-8 md:grid-cols-[1.1fr,0.9fr] items-center">
+<div class="space-y-4">
+<p class="badge badge-outline badge-primary">Services</p>
+<h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">More than CMS: we produce and build VR/AR</h1>
+<p class="text-base text-base-content/80">We do everything VR content production: 360 video production, Augmented Reality apps, 3D web applications, and VR webinars.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary btn-lg" href="index.html#cta">Book a call</a>
+<a class="btn btn-ghost btn-lg" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Start free trial</a>
+</div>
+</div>
+<div class="bg-base-100 rounded-2xl shadow-lg p-6 flex items-center justify-center">
+<img alt="Smart VR Lab services" class="w-full h-auto max-h-72 object-contain" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/elementor/thumbs/smart-vr-logo-bril-01-pl17f7553oiinn1ccm3jgl6x2dyi207wat5sqxqvuy.png"/>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16">
+<div class="max-w-6xl mx-auto px-4 md:px-8 space-y-12">
+<div class="space-y-3 text-center">
+<p class="badge badge-outline badge-primary">Explore our services</p>
+<h2 class="text-2xl md:text-3xl font-display font-bold">Production and experiences tailored to you</h2>
+</div>
+<div class="grid gap-8">
+<div class="grid md:grid-cols-2 gap-6 items-center">
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="Interactive 360 video production" class="w-full h-64 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/04/showtime-1024x462.png"/>
+</figure>
+</div>
+<div class="space-y-3">
+<p class="badge badge-outline">360 Video</p>
+<h3 class="text-xl font-display font-semibold">Interactive 360° video production</h3>
+<p class="text-base text-base-content/80">Revolutionize your B2B training and art projects - provide immersive experiences with our interactive 360 videos.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary btn-sm" href="360-video.html">360 Video</a>
+<a class="link link-primary" href="interactive-video.html">See interactive video</a>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6 items-center md:flex-row-reverse">
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="Augmented reality apps" class="w-full h-64 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2022/08/AR-1024x576.png"/>
+</figure>
+</div>
+<div class="space-y-3">
+<p class="badge badge-outline">Augmented Reality</p>
+<h3 class="text-xl font-display font-semibold">AR apps without limits</h3>
+<p class="text-base text-base-content/80">There are no limits: turn your visions into reality - Augmented Reality. AR you ready for it? Then let's build the future together.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary btn-sm" href="augmented-reality-ar.html">Augmented Reality</a>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6 items-center">
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="3D web application example" class="w-full h-64 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/elementor/thumbs/neuro-anatomy-app-clean-pisqrxzpc22riegzybyxk3ffid4ndwt3wf7qcdmwui.png"/>
+</figure>
+</div>
+<div class="space-y-3">
+<p class="badge badge-outline">3D Web Apps</p>
+<h3 class="text-xl font-display font-semibold">3D web applications</h3>
+<p class="text-base text-base-content/80">We combine the power of 3D and web technology to create unforgettable experiences that are easily accessible on the internet. Convince yourself of our app-titude.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary btn-sm" href="3d-web-apps.html">3D Web Apps</a>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6 items-center md:flex-row-reverse">
+<div class="card bg-base-100 shadow-lg overflow-hidden">
+<figure class="bg-base-200">
+<img alt="VR webinars and workshops" class="w-full h-64 object-cover" src="../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2020/04/VR-CMS-content-management-07-1024x724.png"/>
+</figure>
+</div>
+<div class="space-y-3">
+<p class="badge badge-outline">VR Webinars</p>
+<h3 class="text-xl font-display font-semibold">VR webinars &amp; workshops</h3>
+<p class="text-base text-base-content/80">Interactive sessions to get your team aligned on VR strategy, content workflows, and headset rollout best practices.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary btn-sm" href="vr-webinars.html">VR Webinars</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-base-200">
+<div class="max-w-5xl mx-auto px-4 md:px-8 grid gap-6 md:grid-cols-[1.2fr,0.8fr] items-center">
+<div class="space-y-3">
+<h3 class="text-xl font-display font-semibold">Ready to build your next immersive experience?</h3>
+<p class="text-base text-base-content/80">Tell us what you want to create. We'll help shape the right format (360, AR, 3D web, webinar) and ship it with the VR CMS for distribution.</p>
+<div class="flex gap-3">
+<a class="btn btn-primary" href="index.html#cta">Plan a call</a>
+<a class="btn btn-outline btn-secondary" href="https://app.smartvrlab.nl/users/register" rel="noopener" target="_blank">Start free trial</a>
+</div>
+</div>
+<div class="card bg-base-100 shadow-lg">
+<div class="card-body">
+<h4 class="card-title">What we can help with</h4>
+<ul class="space-y-2 text-sm text-base-content/80 list-disc list-inside">
+<li>Storyboarding, scripting, and production for 360 video</li>
+<li>Custom AR apps for patient journeys, training, or marketing</li>
+<li>3D web apps that run in-browser without installs</li>
+<li>VR webinar facilitation and rollout playbooks</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="site-footer"></div>
+</div>
+<script src="footer.js"></script>
 </body>
 </html>
