@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>How to add questions | Smart VR Lab Helpdesk</title>
-  <meta name="description" content="Add timed multiple-choice, checkbox, or info questions to your interactive videos in Smart VR Lab." />
+  <meta name="description" content="Add questions to your interactive video: open the editor, place the marker, add a question, set points/timers, and pick the right question type." />
   <meta property="og:title" content="How to add questions" />
-  <meta property="og:description" content="Add timed multiple-choice, checkbox, or info questions to your interactive videos in Smart VR Lab." />
+  <meta property="og:description" content="Add questions to your interactive video: open the editor, place the marker, add a question, set points/timers, and pick the right question type." />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Smart VR Lab" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -48,10 +48,12 @@
     <header class="border-b border-base-200">
       <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
         <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
-        </div>
+<a class="flex items-center" href="../index.html">
+<img alt="Smart VR Lab logo" class="h-10 w-auto" src="../../scraped_site/assets/wp-content/uploads/2020/02/Smart_VR_Lab_Logo_Horizontal_White-1.png"/>
+</a>
+</div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">            <li><a href="../services.html">Services</a></li>
+          <ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
             <li><a href="../interactive-video.html">Interactive Video</a></li>
             <li><a href="../pricing.html">Pricing</a></li>
             <li><a href="../virtual-reality-blog.html">Blog</a></li>
@@ -63,7 +65,7 @@
           <a class="btn btn-primary btn-sm" href="../index.html#cta">Plan a call</a>
           <div class="dropdown dropdown-end lg:hidden">
             <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">              <li><a href="../services.html">Services</a></li>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">              <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
               <li><a href="../interactive-video.html">Interactive Video</a></li>
               <li><a href="../pricing.html">Pricing</a></li>
               <li><a href="../virtual-reality-blog.html">Blog</a></li>
@@ -90,7 +92,7 @@
               <span><strong class="text-base-content">Time:</strong> ~5 minutes</span>
               <span><strong class="text-base-content">Device:</strong> Web app</span>
             </div>
-            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Place timed questions in your interactive video, choose the type (multiple choice, checkbox, or info), and add scoring or timers to guide learners.</p>
+            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Add questions to your interactive video, set points or timers, and choose between Multiple Choice, Checkbox, or Info types.</p>
             <div class="flex flex-wrap gap-3">
               <a class="btn btn-primary" href="#steps">Jump to steps</a>
               <a class="btn btn-ghost gap-2" href="../helpdesk.html">
@@ -116,14 +118,14 @@
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
                     <strong class="text-base-content">What you need</strong>
                     <ul class="list-disc list-inside mt-2 space-y-1">
-                      <li>An uploaded interactive video</li>
+                      <li>An interactive video (or VR interactive) already created</li>
                       <li>Access to the Interactive Editor</li>
                       <li>Question text and answer options</li>
                     </ul>
                   </div>
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
                     <strong class="text-base-content">Outcome</strong>
-                    <p class="mt-2">Your interactive includes questions with scoring/timers to guide learners.</p>
+                    <p class="mt-2">Your interactive includes questions with scoring or timers to guide learners.</p>
                   </div>
                 </div>
               </div>
@@ -132,27 +134,67 @@
             <div id="steps" class="help-article space-y-6">
 
               <div class="help-step">
-                <h2>Step 1 - Open the Interactive Editor</h2>
-                <p>In <strong>Interactive Videos</strong> (or <strong>VR Interactives</strong>), click the pencil icon next to your video to open the editor.</p>
+                <h2>Things to consider before you start</h2>
+                <p>Sign in at <a class="link link-primary" href="https://app.smartvrlab.nl/">app.smartvrlab.nl</a>. If you don’t have an account yet, follow the create-account guide.</p>
+                <p>If this is your first interactive, you may want to review: How to make a VR video, How to make a video, Create an interactive video, or How to make a VR interactive.</p>
               </div>
 
               <div class="help-step">
-                <h2>Step 2 - Position the timeline marker</h2>
-                <p>Move the timeline marker to the moment where the question should appear.</p>
+                <h2>Why add questions?</h2>
+                <p>Questions (and answers with scoring) make (VR) Interactives useful for training and assessment. They turn passive viewing into guided practice and let you branch stories or add feedback.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 1 - Navigate to Interactive Videos / VR Interactives</h2>
+                <p>Open <strong>Interactive Videos</strong> (or <strong>VR Interactives</strong> for VR-only) from the left sidebar. You will see the Actions menu on the right.</p>
                 <figure class="my-4 flex justify-center">
-                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/timeline.png" alt="Placing the marker on the timeline" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-96 object-contain">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/ActionMenuVRInteractives.png" alt="Actions menu for Interactive Videos" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-40 object-contain">
+                </figure>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 2 - Go to the editor</h2>
+                <p>Click the <strong>pencil</strong> icon in the Actions menu to open the editor for your interactive video.</p>
+                <figure class="my-4 flex justify-center">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Interactive-Editor-Button.png" alt="Editor icon for interactive video" class="rounded-xl border border-base-200 bg-base-100 shadow max-h-16 object-contain">
                 </figure>
               </div>
 
               <div class="help-step">
                 <h2>Step 3 - Add a question</h2>
-                <p>Click <strong>Add Question</strong> and choose a type: Multiple choice, Checkbox, or Info.</p>
-                <p>Fill in the prompt and answers. Optional: add a timer or points (positive/negative).</p>
+                <p>Move the timeline marker to the time you want the question to appear, then click <strong>Add Question</strong> on the right.</p>
+                <figure class="my-4 flex justify-center">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/QuestionBar.png" alt="Add question on the timeline" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-72 object-contain">
+                </figure>
               </div>
 
               <div class="help-step">
-                <h2>Step 4 - Save and preview</h2>
-                <p>Save the question. Use Preview to check timing and behavior on both web and headset.</p>
+                <h2>Step 4 - Questions, answers, and points</h2>
+                <p>Enter the question text and answers, select the correct option(s), and assign points (and/or penalties). Add a timer if you want time pressure, then save.</p>
+                <figure class="my-4 flex justify-center">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/how-to-add-a-question.gif" alt="Filling out question details" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-80 object-contain">
+                </figure>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 5 - Add more questions</h2>
+                <p>Repeat steps 3 and 4 to add additional questions. Each new question gets the next number in the timeline.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>The 3 question types</h2>
+                <h3 class="mt-2">Multiple Choice</h3>
+                <p>One answer is correct. Great for branched narratives—different answers can lead to different outcomes.</p>
+                <h3 class="mt-4">Checkbox</h3>
+                <p>Select multiple answers; more than one can be correct. Useful for knowledge checks (not for branching).</p>
+                <figure class="my-4 flex justify-center">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/CheckboxQuestion.png" alt="Checkbox question example" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-96 object-contain">
+                </figure>
+                <h3 class="mt-4">Info</h3>
+                <p>Not a scored question—use it to provide feedback or extra info. In branched narratives you can link the info panel to a scene.</p>
+                <figure class="my-4 flex justify-center">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/QuestionTypeINFO.png" alt="Info question type example" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-96 object-contain">
+                </figure>
               </div>
 
             </div>
@@ -200,6 +242,9 @@
   <script src="../footer.js"></script>
 </body>
 </html>
+
+
+
 
 
 

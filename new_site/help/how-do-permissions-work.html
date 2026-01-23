@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>How do permissions work | Smart VR Lab Helpdesk</title>
-  <meta name="description" content="Understand roles and permissions in Smart VR Lab so you can control who uploads, publishes, and manages devices." />
-  <meta property="og:title" content="How do permissions work" />
-  <meta property="og:description" content="Understand roles and permissions in Smart VR Lab so you can control who uploads, publishes, and manages devices." />
+  <title>How do permissions work? | Smart VR Lab Helpdesk</title>
+  <meta name="description" content="In this helpdesk article you find how to use the Smart VR Lab Content Management System (CMS) for Virtual Reality and 360 video." />
+  <meta property="og:title" content="How do permissions work?" />
+  <meta property="og:description" content="In this helpdesk article you find how to use the Smart VR Lab Content Management System (CMS) for Virtual Reality and 360 video." />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Smart VR Lab" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -48,10 +48,12 @@
     <header class="border-b border-base-200">
       <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
         <div class="navbar-start">
-          <a class="text-2xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
-        </div>
+<a class="flex items-center" href="../index.html">
+<img alt="Smart VR Lab logo" class="h-10 w-auto" src="../../scraped_site/assets/wp-content/uploads/2020/02/Smart_VR_Lab_Logo_Horizontal_White-1.png"/>
+</a>
+</div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">            <li><a href="../services.html">Services</a></li>
+          <ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
             <li><a href="../interactive-video.html">Interactive Video</a></li>
             <li><a href="../pricing.html">Pricing</a></li>
             <li><a href="../virtual-reality-blog.html">Blog</a></li>
@@ -63,7 +65,7 @@
           <a class="btn btn-primary btn-sm" href="../index.html#cta">Plan a call</a>
           <div class="dropdown dropdown-end lg:hidden">
             <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">              <li><a href="../services.html">Services</a></li>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">              <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
               <li><a href="../interactive-video.html">Interactive Video</a></li>
               <li><a href="../pricing.html">Pricing</a></li>
               <li><a href="../virtual-reality-blog.html">Blog</a></li>
@@ -85,12 +87,12 @@
               </span>
               <span class="text-base-content/70">Accounts / Permissions</span>
             </div>
-            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">How do permissions work</h1>
+            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">How do permissions work?</h1>
             <div class="help-meta text-sm text-base-content/70">
               <span><strong class="text-base-content">Time:</strong> ~3 minutes</span>
               <span><strong class="text-base-content">Device:</strong> Web app</span>
             </div>
-            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Learn the roles and permissions so you can invite teammates, control uploads, and manage publishing access.</p>
+            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Permissions grant authority over certain events—like deleting content, managing users, or changing settings. They help you control who can do what.</p>
             <div class="flex flex-wrap gap-3">
               <a class="btn btn-primary" href="#steps">Jump to steps</a>
               <a class="btn btn-ghost gap-2" href="../helpdesk.html">
@@ -108,22 +110,22 @@
 
             <div class="card bg-base-100 shadow-md border border-base-200 overflow-hidden">
               <figure class="bg-base-200">
-                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2021/12/create-edit-delete-user.gif" alt="Managing user permissions" class="w-full h-auto object-cover">
+                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/edit-user-e1705915871160.png" alt="Edit user permissions in Smart VR Lab" class="w-full h-auto object-cover">
               </figure>
 
               <div class="card-body">
                 <div class="grid md:grid-cols-2 gap-4 text-sm text-base-content/80">
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
-                    <strong class="text-base-content">What you need</strong>
+                    <strong class="text-base-content">Why manage permissions?</strong>
                     <ul class="list-disc list-inside mt-2 space-y-1">
-                      <li>Admin access</li>
-                      <li>List of roles per teammate</li>
-                      <li>Device and content ownership decisions</li>
+                      <li>Limit who can delete or publish content</li>
+                      <li>Control who can manage other users</li>
+                      <li>Protect settings from accidental changes</li>
                     </ul>
                   </div>
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
                     <strong class="text-base-content">Outcome</strong>
-                    <p class="mt-2">The right people can upload, publish, and manage devices safely.</p>
+                    <p class="mt-2">Only the right people can access, change, or publish content and settings.</p>
                   </div>
                 </div>
               </div>
@@ -131,24 +133,40 @@
 
             <div id="steps" class="help-article space-y-6">
 
-              <div class="help-step">
-                <h2>Step 1 - Open Users</h2>
-                <p>In the web app, go to <strong>Users</strong> (or <strong>Settings</strong> -> <strong>Users</strong>).</p>
+              <div class="space-y-2">
+                <h2>Why would you manage permissions?</h2>
+                <p>Permissions grant authority over certain events. They let you control who can delete content, manage other users, and change settings.</p>
               </div>
 
               <div class="help-step">
-                <h2>Step 2 - Review roles</h2>
-                <p>Check each user's role and permissions. Ensure only authorized teammates can publish or manage devices.</p>
+                <h2>Step 1 - Log in</h2>
+                <p>Log into your Smart VR Lab account on <a class="link link-primary" href="https://app.smartvrlab.nl/">app.smartvrlab.nl</a>.</p>
               </div>
 
               <div class="help-step">
-                <h2>Step 3 - Update access</h2>
-                <p>Edit users to grant or revoke permissions. Save changes and notify the team if access changes.</p>
+                <h2>Step 2 - Navigate to Users</h2>
+                <p>Go to the tab <strong>Users</strong> under <strong>Account</strong>.</p>
               </div>
 
               <div class="help-step">
-                <h2>Step 4 - Audit regularly</h2>
-                <p>Periodically review users, especially when people change roles or leave the team.</p>
+                <h2>Step 3 - Go to Settings</h2>
+                <p>Click on the <strong>gear</strong> icon of an existing user or <a class="link link-primary" href="how-to-create-edit-and-delete-users.html">create a new user</a>.</p>
+                <p class="mt-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/edit-user-e1705915871160.png" alt="Edit user permissions view" class="rounded-lg border border-base-300"></p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 4 - Permissions</h2>
+                <p>If you turn off a permission, it disappears for that user. For example, removing the <strong>Manage Settings</strong> permission hides the <strong>Settings</strong> tab.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Note</h2>
+                <p><strong>If you remove your own permission to manage users, you cannot set it back yourself.</strong> The <strong>Users</strong> tab will disappear, so you will no longer be able to manage users, including yourself.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Did you know?</h2>
+                <p>If you remove the permission to manage users and need it restored, contact your Smart VR Lab admin or another user who can manage users to grant you this permission again.</p>
               </div>
 
             </div>
@@ -196,6 +214,10 @@
   <script src="../footer.js"></script>
 </body>
 </html>
+
+
+
+
 
 
 

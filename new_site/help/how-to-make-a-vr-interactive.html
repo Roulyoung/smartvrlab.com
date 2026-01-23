@@ -1,572 +1,247 @@
 <!doctype html>
-
-
 <html lang="en">
-
-
 <head>
-
-
   <meta charset="UTF-8" />
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-  <title>How to make a VR interactive | Smart VR Lab Helpdesk</title>
-
-
-  <meta name="description" content="Add interactivity to your VR experience with hotspots, inputs, and decision points." />
-
-
-  <meta property="og:title" content="How to make a VR interactive" />
-
-
-  <meta property="og:description" content="Add interactivity to your VR experience with hotspots, inputs, and decision points." />
-
-
+  <title>How to make a VR Interactive | Smart VR Lab Helpdesk</title>
+  <meta name="description" content="Let's look on how you can create an VR Interactive Video. What are the benefits of it and how is it different form an Interactive Video?" />
+  <meta property="og:title" content="How to make a VR Interactive" />
+  <meta property="og:description" content="Let's look on how you can create an VR Interactive Video. What are the benefits of it and how is it different form an Interactive Video?" />
   <meta property="og:type" content="article" />
-
-
   <meta property="og:site_name" content="Smart VR Lab" />
-
-
   <meta name="twitter:card" content="summary_large_image" />
-
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-
-
   <script src="https://cdn.tailwindcss.com"></script>
-
-
   <script>
-
-
     tailwind.config = {
-
-
       theme: {
-
-
         extend: {
-
-
           fontFamily: {
-
-
             sans: ['Inter', 'sans-serif'],
-
-
             display: ['Manrope', 'Inter', 'sans-serif'],
-
-
           },
-
-
         }
-
-
       }
-
-
     }
-
-
   </script>
-
-
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../cropped-Frame-4-32x32.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../cropped-Frame-4-32x32.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="../cropped-Frame-4-192x192.png" />
-
-
   <style>
-
-
     .help-article h2 { font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem; }
-
-
     .help-article h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
-
-
     .help-article p { margin-bottom: 0.75rem; line-height: 1.7; }
-
-
     .help-article ol { list-style: decimal; padding-left: 1.25rem; }
-
-
     .help-article strong { font-weight: 700; }
-
-
     .help-step { padding: 1rem; border-radius: 1rem; border: 1px solid rgb(229,231,235); background: rgb(248,250,252); }
-
-
     .help-meta { display: grid; gap: 0.5rem; }
-
-
     @media (prefers-color-scheme: dark) {
-
-
       .help-step { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.08); }
-
-
     }
-
-
   </style>
-
-
 </head>
-
-
 <body class="bg-base-100 text-base-content">
-
-
   <div class="min-h-screen flex flex-col">
-
-
     
-
-
     <header class="border-b border-base-200">
-
-
       <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-
-
         <div class="navbar-start">
-
-
-          <a class="text-2xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
-
-
-        </div>
-
-
+<a class="flex items-center" href="../index.html">
+<img alt="Smart VR Lab logo" class="h-10 w-auto" src="../../scraped_site/assets/wp-content/uploads/2020/02/Smart_VR_Lab_Logo_Horizontal_White-1.png"/>
+</a>
+</div>
         <div class="navbar-center hidden lg:flex">
-
-
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-
-            <li><a href="../services.html">Services</a></li>
-
-
+          <ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
             <li><a href="../interactive-video.html">Interactive Video</a></li>
-
-
             <li><a href="../pricing.html">Pricing</a></li>
-
-
             <li><a href="../virtual-reality-blog.html">Blog</a></li>
-
-
             <li><a href="../helpdesk.html">Helpdesk</a></li>
-
-
           </ul>
-
-
         </div>
-
-
         <div class="navbar-end gap-2">
-
-
           <a class="btn btn-ghost btn-sm" href="../index.html#demo">Demo</a>
-
-
           <a class="btn btn-primary btn-sm" href="../index.html#cta">Plan a call</a>
-
-
           <div class="dropdown dropdown-end lg:hidden">
-
-
             <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-
-
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-
-              <li><a href="../services.html">Services</a></li>
-
-
+              <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
               <li><a href="../interactive-video.html">Interactive Video</a></li>
-
-
               <li><a href="../pricing.html">Pricing</a></li>
-
-
               <li><a href="../virtual-reality-blog.html">Blog</a></li>
-
-
               <li><a href="../helpdesk.html">Helpdesk</a></li>
-
-
               <li><a href="../index.html#cta">Plan a call</a></li>
-
-
             </ul>
-
-
           </div>
-
-
         </div>
-
-
       </div>
-
-
     </header>
 
-
-
-
-
     <main class="flex-1">
-
-
       <section class="border-b border-base-200 bg-base-200/60">
-
-
         <div class="max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-14">
-
-
           <div class="flex flex-col gap-4">
-
-
             <div class="flex flex-wrap items-center gap-3 text-xs md:text-sm text-primary">
-
-
               <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-semibold uppercase tracking-[0.18em]">
-
-
                 Helpdesk
-
-
               </span>
-
-
               <span class="text-base-content/70">Interactive / Learning</span>
-
-
             </div>
-
-
-            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">How to make a VR interactive</h1>
-
-
+            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">How to make a VR Interactive</h1>
             <div class="help-meta text-sm text-base-content/70">
-
-
-              <span><strong class="text-base-content">Time:</strong> ~8 minutes</span>
-
-
+              <span><strong class="text-base-content">Time:</strong> ~5 minutes</span>
               <span><strong class="text-base-content">Device:</strong> Web app</span>
-
-
             </div>
-
-
-            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Add interactivity to your VR experience with hotspots, inputs, and decision points.</p>
-
-
+            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Let&apos;s look on how you can create an VR Interactive Video. What are the benefits of it and how is it different form an Interactive Video?</p>
             <div class="flex flex-wrap gap-3">
-
-
               <a class="btn btn-primary" href="#steps">Jump to steps</a>
-
-
               <a class="btn btn-ghost gap-2" href="../helpdesk.html">
-
-
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
-
-
                 Back to helpdesk
-
-
               </a>
-
-
             </div>
-
-
           </div>
-
-
         </div>
-
-
       </section>
 
-
       <section class="py-12 md:py-16 bg-base-100">
-
-
         <div class="max-w-5xl mx-auto px-4 md:px-8 grid lg:grid-cols-[2fr_1fr] gap-10">
-
-
           <article class="space-y-10">
 
-
-            
-
-
             <div class="card bg-base-100 shadow-md border border-base-200 overflow-hidden">
-
-
               <figure class="bg-base-200">
-
-                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/interactiveVideo.png" alt="Interactive editor in Smart VR Lab" class="w-full h-auto object-cover">
-
+                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/NewVideo_Button.png" alt="Add a VR Interactive" class="w-full h-auto object-cover">
               </figure>
 
-
               <div class="card-body">
-
-
                 <div class="grid md:grid-cols-2 gap-4 text-sm text-base-content/80">
-
-
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
-
-
                     <strong class="text-base-content">What you need</strong>
-
-
                     <ul class="list-disc list-inside mt-2 space-y-1">
-
-
                       <li>Smart VR Lab account at app.smartvrlab.nl</li>
-
-
                       <li>Stable internet connection</li>
-
-
-                      <li>Device access as noted above</li>
-
-
+                      <li>A VR video uploaded to Smart VR Lab</li>
                     </ul>
-
-
                   </div>
-
-
                   <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
-
-
                     <strong class="text-base-content">Outcome</strong>
-
-
-                    <p class="mt-2">Complete these steps and you will be ready for the next publishing action.</p>
-
-
+                    <p class="mt-2">A saved VR Interactive ready to edit, add questions, and publish.</p>
                   </div>
-
-
                 </div>
-
-
               </div>
-
-
             </div>
-
-
-    
-
 
             <div id="steps" class="help-article space-y-6">
 
+              <div class="space-y-2">
+                <p>If you wish to create an VR Interactive you have to first upload a <strong>VR Video</strong> to <a class="link link-primary" href="https://app.smartvrlab.nl/">app.smartvrlab.nl</a>. <a class="link link-primary" href="how-to-add-video.html">Here&apos;s</a> an article to see how you do this.</p>
+                <h3 class="text-lg font-bold">Why should we make VR Interactive Videos?</h3>
+                <p>VR Interactives are incredibly handy to use if you want to create the most immersive type of training or experience. Because a VR Interactive is in Virtual Reality it will require a VR headset, but it might well be worth it, depending on what you need.</p>
+                <p>Because VR is so immersive you can, for example, see how someone is affected by certain situations or why they would handle it in one way and not another. This allows for conversations and insight on a person.</p>
+              </div>
 
               <div class="help-step">
-
-                <h2>Step 1 - Start with a base video</h2>
-
-                <p>Upload your base 360 or VR video to Content.</p>
-
+                <h2>Steps to Create a VR Interactive</h2>
+                <h3 class="mt-2 font-semibold">Step 1 - Open VR Interactives</h3>
+                <p>You uploaded a VR Video and can now make it a VR Interactive. When you log into the Smart VR Lab app, navigate to the left sidebar and click on <strong>VR Interactives</strong>.</p>
               </div>
 
-
-<div class="help-step">
-                <h2>Step 2 - Add hotspots</h2>
-                <p>Open the interactive editor and place hotspots where you want users to interact.</p><p>Add labels or icons for clarity.</p>
-                <figure class="my-4 flex justify-center">
-                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/timeline.png" alt="Timeline and hotspots in the interactive editor" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-96 object-contain">
-                </figure>
+              <div class="help-step">
+                <h2>Step 2 - Add VR Interactive</h2>
+                <p>Press the purple button on the top left corner to <strong>add a VR Interactive</strong>.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/NewVideo_Button.png" alt="New VR Interactive button" class="rounded-lg border border-base-300 inline-block"></p>
+                <p>When you click on it you can see a whole lot of text, but don&apos;t worry—it&apos;s quite easy to understand.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/interactiveVideo.png" alt="Create VR Interactive form" class="rounded-lg border border-base-300 w-full"></p>
+                <p>First of all give your Interactive a title, then give it a category. If you&apos;re curious on how you can make a category click <a class="link link-primary" href="how-to-create-a-category.html">here</a> to go to the article.</p>
               </div>
 
-
-<div class="help-step">
-
-                <h2>Step 3 - Define actions</h2>
-
-                <p>Configure what happens on click or gaze, such as jump to timecode, open info, or branch.</p>
-
+              <div class="help-step">
+                <h2>Step 3 - Choose Branched Narrative or Linear</h2>
+                <p>After choosing a category it is possible to set your interactive as a branched narrative. If you choose this option you&apos;ll have to assign a number of points for your users to collect. Note: you&apos;re always able change the amount of points later by going to the edit icon.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/testInteractive.png" alt="Branched narrative settings" class="rounded-lg border border-base-300 w-full"></p>
               </div>
 
-
-<div class="help-step">
-
-                <h2>Step 4 - Test in preview</h2>
-
-                <p>Preview the experience in the browser and on a headset to confirm interactions work.</p>
-
+              <div class="help-step">
+                <h2>Step 4 - Add your VR Video&apos;s</h2>
+                <p>Select your VR Video by clicking on the <strong>+</strong> icon underneath the table &quot;Actions&quot;. The video will appear on the right, underneath &quot;Current Playlist&quot;. You can also rename your &quot;scenes&quot; here, which is very handy when you are creating a Branched Narrative and want to use different parts from the same video.</p>
               </div>
 
-
-<div class="help-step">
-
-                <h2>Step 5 - Publish</h2>
-
-                <p>Publish the interactive item to your playlist and headset.</p><p>Gather feedback and refine.</p>
-
+              <div class="help-step">
+                <h2>Step 5 - Save and Start</h2>
+                <p>Go ahead and <strong>save</strong> your Interactive. It&apos;ll be shown in the VR Interactive tab.</p>
               </div>
 
+              <div class="help-step">
+                <h2>Step 6 - Open the Interactive Editor</h2>
+                <p>If you click on the little <strong>pencil</strong> icon, it will take you to the Interactive Editor.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Interactive-Editor-Button.png" alt="Open the interactive editor" class="rounded-lg border border-base-300 inline-block"></p>
+                <p>Here you can see a preview of your VR video, your playlist and the timeline. You can play it, put on fullscreen and adjust the volume.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 7 - Add Question</h2>
+                <p>Beneath the preview of your video, a timeline is shown with a green dot on top of it. You&apos;re able to move this green dot over the timeline and click on the <strong>Add Question</strong> button to add a question to that time-point. You can also change the position of a question by selecting it, clicking in the timeline where you want the question to be and clicking the <strong>Update Timecode</strong> button.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/timeline.png" alt="Timeline showing questions" class="rounded-lg border border-base-300 w-full"></p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 8 - Question Types</h2>
+                <p>There are 3 question types: <strong>Multiple Choice</strong> (the viewer can select one answer), <strong>Checkbox</strong> (the viewer can select multiple answers), and <strong>Info</strong> (show an info panel with text, like feedback). There is also the <strong>Timer</strong> option to limit the time the viewer has to answer the question.</p>
+                <p>There is also the option to add points (positive or negative) to the answers, by changing the point value in the last column. You are able to then save it and see your first question added to the timeline.</p>
+                <p class="my-3"><img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Owl-Vr-Interactive-888x1024.png" alt="Branched narrative question example" class="rounded-lg border border-base-300 w-full max-w-2xl"></p>
+                <p>This is an example of a Branched Narrative Multiple Choice Question, where you can see how you can send the viewer to different scenes after an answer is chosen or not.</p>
+              </div>
+
+              <div class="help-step">
+                <h2>Step 9 - Publish your VR Interactive</h2>
+                <p>To publish your newly created VR interactive click the <strong>Publish</strong> tab in the side menu and publish it to your devices.</p>
+              </div>
 
             </div>
-
 
             <div class="flex flex-wrap gap-3">
-
-
               <a class="btn btn-outline gap-2" href="../helpdesk.html">
-
-
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
-
-
                 Back to helpdesk
-
-
               </a>
-
-
               <a class="btn btn-primary" href="../index.html#cta">Need more help? Contact us</a>
-
-
             </div>
-
 
           </article>
 
-
           <aside class="lg:sticky lg:top-10 space-y-6">
 
-
             <div class="card bg-base-200/80 border border-base-300 shadow-sm">
-
-
               <div class="card-body space-y-3">
-
-
                 <p class="text-sm font-semibold text-base-content/70 uppercase tracking-[0.12em]">Quick links</p>
-
-
                 <ul class="space-y-2 text-sm leading-relaxed">
-
-
                   <li><a class="link link-hover flex items-center gap-2" href="#steps"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Step-by-step guide</a></li>
-
-
                   <li><a class="link link-hover flex items-center gap-2" href="../helpdesk.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>All helpdesk articles</a></li>
-
-
                   <li><a class="link link-hover flex items-center gap-2" href="../index.html#cta"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Plan a call</a></li>
-
-
                 </ul>
-
-
               </div>
-
-
             </div>
-
 
             <div class="card bg-primary text-primary-content shadow-xl">
-
-
               <div class="card-body space-y-3">
-
-
                 <p class="font-display text-lg font-bold">Need hands-on help?</p>
-
-
                 <p class="text-sm text-primary-content/80">Schedule a call with our onboarding team and we will walk you through it live.</p>
-
-
                 <a class="btn btn-outline border-white/40 text-primary-content hover:bg-white hover:text-primary" href="../index.html#cta">Talk to us</a>
-
-
               </div>
-
-
             </div>
-
 
           </aside>
 
-
         </div>
-
-
       </section>
-
-
     </main>
     <div id="site-footer"></div>
 
-
-
-
-
-
   </div>
-
-
   <script src="../footer.js"></script>
 </body>
-
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

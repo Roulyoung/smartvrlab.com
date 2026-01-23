@@ -15,6 +15,7 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet"/>
 <link href="cropped-Frame-4-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
 <link href="cropped-Frame-4-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<script defer src="https://umami-one-rho.vercel.app/script.js" data-website-id="4980c166-a84d-485b-a22c-dfff29dacb27"></script>
 </head>
 <body class="bg-base-100 text-base-content">
 <div class="min-h-screen flex flex-col">
@@ -22,10 +23,12 @@
 <header class="border-b border-base-200">
 <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
 <div class="navbar-start">
-<a class="text-2xl font-display font-bold text-primary" href="index.html">Smart VR Lab</a>
+<a class="flex items-center" href="index.html">
+<img alt="Smart VR Lab logo" class="h-10 w-auto" src="../scraped_site/assets/wp-content/uploads/2020/02/Smart_VR_Lab_Logo_Horizontal_White-1.png"/>
+</a>
 </div>
 <div class="navbar-center hidden lg:flex">
-<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="services.html">Services</a></li>
+<ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="vr-cms.html">VR CMS</a></li> <li><a href="services.html">Services</a></li>
 <li><a href="interactive-video.html">Interactive Video</a></li>
 <li><a href="pricing.html">Pricing</a></li>
 <li><a href="virtual-reality-blog.html">Blog</a></li>
@@ -57,6 +60,13 @@
 <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Guides for linking headsets, uploading videos, publishing to devices, building playlists, and keeping your immersive training up to date.</p>
 </div>
 
+<form id="help-search-form" class="w-full flex flex-col sm:flex-row gap-3 bg-base-100/80 border border-base-200 shadow-sm rounded-xl p-4">
+<label class="text-sm font-semibold text-base-content/70" for="help-search-input">Search helpdesk</label>
+<div class="flex flex-col sm:flex-row gap-3 w-full">
+<input class="input input-bordered w-full" id="help-search-input" name="q" placeholder="Search titles and article text (e.g. “publish playlist”, “link headset”)" type="search"/>
+<button class="btn btn-primary sm:w-auto" type="submit">Search</button>
+</div>
+</form>
 <p class="text-xs text-base-content/70" id="help-search-results"></p>
 <div class="space-y-3" id="help-search-list"></div>
 <div class="flex flex-wrap gap-3 text-sm">
@@ -163,6 +173,11 @@
 <li class="help-item" data-search="link vr headset quest code authorize"><a class="link link-primary" href="help/how-to-link-your-vr-headset.html">How to link your VR headset</a></li>
 <li class="help-item" data-search="install smart vr lab app meta quest oculus store"><a class="link link-primary" href="help/install-smart-vr-lab-on-meta-quest.html">Install Smart VR Lab on Meta Quest</a></li>
 <li class="help-item" data-search="first steps checklist devices setup"><a class="link link-primary" href="help/first-steps-checklist-for-new-devices.html">First steps checklist for new devices</a></li>
+<li class="help-item" data-search="add device pair quest code authorize"><a class="link link-primary" href="help/how-to-add-device.html">How to add a device</a></li>
+<li class="help-item" data-search="install smart vr lab oculus meta quest app store"><a class="link link-primary" href="help/how-to-install-smart-vr-lab-on-oculus.html">How to install Smart VR Lab on Oculus</a></li>
+<li class="help-item" data-search="install smart vr lab app headset download"><a class="link link-primary" href="help/how-to-install-the-smart-vr-lab-app.html">How to install the Smart VR Lab app</a></li>
+<li class="help-item" data-search="first step guide smart vr lab cms overview"><a class="link link-primary" href="help/first-step-guide-to-the-smart-vr-lab-vr-cms.html">First step guide to the Smart VR Lab VR CMS</a></li>
+<li class="help-item" data-search="enable developer mode oculus quest meta app bluetooth location"><a class="link link-primary" href="help/how-to-enable-developer-mode-on-oculus.html">How to enable Developer Mode on Oculus</a></li>
 </ul>
 </div>
 </div>
@@ -176,10 +191,17 @@
 <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
 <li class="help-item" data-search="add video upload media"><a class="link link-primary" href="help/how-to-add-video.html">How to add video</a></li>
 <li class="help-item" data-search="add vr video files upload media"><a class="link link-primary" href="help/add-vr-video-files.html">Add VR video files</a></li>
+<li class="help-item" data-search="add video files upload media filetypes"><a class="link link-primary" href="help/how-to-add-video-files.html">How to add video files</a></li>
 <li class="help-item" data-search="upload 360 photos immersive images"><a class="link link-primary" href="help/upload-360-photos-and-immersive-images.html">Upload 360 photos and immersive images</a></li>
+<li class="help-item" data-search="add photo files 360 images upload"><a class="link link-primary" href="help/how-to-add-photo-files.html">How to add photo files</a></li>
 <li class="help-item" data-search="change 2d 3d status titles metadata"><a class="link link-primary" href="help/change-2d-3d-status-and-titles.html">Change 2D / 3D status and titles</a></li>
+<li class="help-item" data-search="change 2d 3d status file format stereoscopic monoscopic"><a class="link link-primary" href="help/how-to-change-a-files-2d-or-3d-status.html">How to change a file's 2D or 3D status</a></li>
+<li class="help-item" data-search="change title rename video photo file metadata"><a class="link link-primary" href="help/how-to-change-the-title-of-a-video-or-photo-file.html">How to change the title of a video or photo file</a></li>
 <li class="help-item" data-search="preview status transcoding progress"><a class="link link-primary" href="help/preview-status-and-transcoding.html">Preview status and transcoding</a></li>
+<li class="help-item" data-search="what are preview status transcoding meaning processing"><a class="link link-primary" href="help/what-are-preview-status-and-transcoding.html">What are preview status and transcoding?</a></li>
+<li class="help-item" data-search="transcoding failure error upload troubleshooting"><a class="link link-primary" href="help/preview-status-transcoding-failure.html">Preview status and transcoding failure</a></li>
 <li class="help-item" data-search="download content securely export"><a class="link link-primary" href="help/download-content-securely.html">Download content securely</a></li>
+<li class="help-item" data-search="download content export media save locally"><a class="link link-primary" href="help/how-to-download-content.html">How to download content</a></li>
 <li class="help-item" data-search="delete files remove media clean up library"><a class="link link-primary" href="help/how-to-delete-files.html">How to delete files</a></li>
 </ul>
 </div>
@@ -220,7 +242,9 @@
 <ul class="list-disc pl-5 text-base-content/80 space-y-2 text-sm">
 <li class="help-item" data-search="publish to vr device authorize push content"><a class="link link-primary" href="help/publish-to-a-vr-device.html">Publish to a VR device</a></li>
 <li class="help-item" data-search="create playlist training order videos"><a class="link link-primary" href="help/create-a-playlist.html">Create a playlist</a></li>
+<li class="help-item" data-search="make playlist add items reorder publish"><a class="link link-primary" href="help/how-to-make-playlist.html">How to make a playlist</a></li>
 <li class="help-item" data-search="create category organize content"><a class="link link-primary" href="help/create-a-category.html">Create a category</a></li>
+<li class="help-item" data-search="how to create a category organize library"><a class="link link-primary" href="help/how-to-create-a-category.html">How to create a category</a></li>
 <li class="help-item" data-search="update republish changes versioning"><a class="link link-primary" href="help/update-and-republish-changes.html">Update and republish changes</a></li>
 </ul>
 </div>
@@ -238,8 +262,9 @@
 <li class="help-item" data-search="create edit delete users invite team access roles permissions"><a class="link link-primary" href="help/how-to-create-edit-and-delete-users.html">Create, edit, and delete users</a></li>
 <li class="help-item" data-search="permissions roles access control"><a class="link link-primary" href="help/how-do-permissions-work.html">How do permissions work</a></li>
 <li class="help-item" data-search="make vr interactive hotspots inputs"><a class="link link-primary" href="help/how-to-make-a-vr-interactive.html">How to make a VR interactive</a></li>
+<li class="help-item" data-search="create interactive video hotspots branching"><a class="link link-primary" href="help/create-an-interactive-video.html">Create an interactive video</a></li>
 <li class="help-item" data-search="what is a branched narrative branching paths"><a class="link link-primary" href="help/what-is-a-branched-narrative.html">What is a branched narrative?</a></li>
-<li class="help-item" data-search="design tips learner flow onboarding"><a class="link link-primary" href="help/design-tips-for-learner-flow.html">Design tips for learner flow</a></li>
+<li class="help-item" data-search="what is duration start end timecode trim"><a class="link link-primary" href="help/what-is-duration.html">What is Duration?</a></li>
 </ul>
 </div>
 </div>
@@ -271,34 +296,19 @@
       const resultLabel = document.getElementById('help-search-results');
       const resultsList = document.getElementById('help-search-list');
 
-      const articles = [
-        { title: 'How to link your VR headset', url: 'help/how-to-link-your-vr-headset.html', fallbackContent: 'Link your Meta Quest headset to Smart VR Lab. Log in to app.smartvrlab.nl, go to Devices, click Add Device, enter the 5 digit code in the headset app, name the device, and ensure it is authorized to publish content.' },
-        { title: 'Install Smart VR Lab on Meta Quest', url: 'help/install-smart-vr-lab-on-meta-quest.html', fallbackContent: 'Install the Smart VR Lab app from the Meta link, add it to your library, install on the headset, and get to the 5 digit code screen.' },
-        { title: 'First steps checklist for new devices', url: 'help/first-steps-checklist-for-new-devices.html', fallbackContent: 'Charge the headset, connect Wi-Fi, install Smart VR Lab, generate the 5 digit code, enter it on the headset, name and authorize the device.' },
-        { title: 'Add VR video files', url: 'help/add-vr-video-files.html', fallbackContent: 'Upload VR video files, set 2D or 3D, add titles, and monitor transcoding before publishing.' },
-        { title: 'Upload 360 photos and immersive images', url: 'help/upload-360-photos-and-immersive-images.html', fallbackContent: 'Add 360 photos, set projection, choose 2D or 3D, add titles, and preview rendering.' },
-        { title: 'Change 2D / 3D status and titles', url: 'help/change-2d-3d-status-and-titles.html', fallbackContent: 'Edit items to switch 2D/3D layouts, update titles and descriptions, and republish playlists if needed.' },
-        { title: 'Preview status and transcoding', url: 'help/preview-status-and-transcoding.html', fallbackContent: 'Check upload status, wait for transcoding, and use Preview to confirm playback quality.' },
-        { title: 'Download content securely', url: 'help/download-content-securely.html', fallbackContent: 'Download media from Content, confirm access, and store files in approved locations.' },
-        { title: 'Publish to a VR device', url: 'help/publish-to-a-vr-device.html', fallbackContent: 'Authorize a device, choose content, publish to the headset, and verify availability on the device.' },
-        { title: 'Create a playlist', url: 'help/create-a-playlist.html', fallbackContent: 'Create a playlist, add and order items, save, and publish to devices.' },
-        { title: 'Create a category', url: 'help/create-a-category.html', fallbackContent: 'Create categories in the library and assign items to keep content organized.' },
-        { title: 'Update and republish changes', url: 'help/update-and-republish-changes.html', fallbackContent: 'After editing items or playlists, republish to devices and verify the updated version.' },
-        { title: 'How to add questions', url: 'help/how-to-add-questions.html', fallbackContent: 'Open the interactive editor, place the timeline marker, add a question type, set timers or points, then save and preview.' },
-        { title: 'How to change the background image', url: 'help/how-to-change-the-background-image.html', fallbackContent: 'Open the interactive, upload or select a new background image, save, and preview on web and headset.' },
-        { title: 'Create, edit, and delete users', url: 'help/how-to-create-edit-and-delete-users.html', fallbackContent: 'Add teammates, adjust details and permissions, and remove users when access is no longer needed.' },
-        { title: 'How to add video', url: 'help/how-to-add-video.html', fallbackContent: 'Upload a video, set 2D/3D, add details, and let transcoding finish before publishing or using interactives.' },
-        { title: 'How to create a free account', url: 'help/how-to-create-a-free-account.html', fallbackContent: 'Sign up with your email, confirm the activation link, and log in to start uploading and linking devices.' },
-        { title: 'How to remove my account', url: 'help/how-to-remove-my-account.html', fallbackContent: 'Open account settings, request deletion, confirm, and notify your admin to reassign assets if needed.' },
-        { title: 'How to make a VR interactive', url: 'help/how-to-make-a-vr-interactive.html', fallbackContent: 'Add hotspots, actions, and branches to a VR experience, test interactions, and publish.' },
-        { title: 'What is a branched narrative?', url: 'help/what-is-a-branched-narrative.html', fallbackContent: 'Map decision points, build branches with hotspots, and test each path in your VR story.' },
-        { title: 'Design tips for learner flow', url: 'help/design-tips-for-learner-flow.html', fallbackContent: 'Orient learners, add visual anchors, pace interactions, and provide recovery paths in VR training.' },
-        { title: 'How to publish content', url: 'help/how-to-publish-content.html', fallbackContent: 'Select content or a playlist, choose authorized devices, confirm publish, and verify on the headset.' },
-        { title: 'How to use the Smart VR Lab app', url: 'help/how-to-use-the-smart-vr-lab-app.html', fallbackContent: 'Sign in on the headset, browse assigned playlists, download, and refresh to see updates.' },
-        { title: 'Supported filetypes', url: 'help/supported-filetypes.html', fallbackContent: 'Supported video (MP4 H.264/H.265), image (JPG/PNG equirectangular), and audio formats with recommended specs.' },
-        { title: 'Report bugs or problems', url: 'help/report-bugs-or-problems.html', fallbackContent: 'Share device info, steps to reproduce, expected vs actual results, and screenshots or recordings.' },
-        { title: 'Send user feedback', url: 'help/user-feedback.html', fallbackContent: 'Describe the goal, who benefits, and examples to help us prioritize your request.' },
-      ];
+      const linkNodes = Array.from(document.querySelectorAll('a[href^="help/"][href$=".html"]'));
+      const articles = [];
+      const seen = new Set();
+
+      linkNodes.forEach((link) => {
+        const href = link.getAttribute('href');
+        if (!href || seen.has(href)) return;
+        seen.add(href);
+        articles.push({
+          title: link.textContent.trim() || href,
+          url: href,
+        });
+      });
 
       const index = [];
       let indexed = false;
@@ -310,15 +320,15 @@
 
       const renderResults = (items, query) => {
         if (!resultsList) return;
-        resultsList.innerH?L = '';
+        resultsList.innerHTML = '';
 
         if (!query.trim()) {
-          resultsList.innerH?L = '<p class="text-sm text-base-content/70">Try searching for a helpdesk article.</p>';
+          resultsList.innerHTML = '<p class="text-sm text-base-content/70">Try searching for a helpdesk article.</p>';
           return;
         }
 
         if (!items.length) {
-          resultsList.innerH?L = '<p class="text-sm text-base-content/70">No articles found. Try a different keyword.</p>';
+          resultsList.innerHTML = '<p class="text-sm text-base-content/70">No articles found. Try a different keyword.</p>';
           return;
         }
 
@@ -326,7 +336,7 @@
           const el = document.createElement('a');
           el.href = item.url;
           el.className = 'block card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow';
-          el.innerH?L = `
+          el.innerHTML = `
             <div class="card-body space-y-2">
               <p class="text-xs uppercase tracking-[0.14em] text-primary/80 font-semibold">Helpdesk article</p>
               <p class="card-title text-lg">${item.title}</p>
@@ -370,15 +380,15 @@
             index.push({
               ...article,
               content: `${article.title} ${bodyText}`.toLowerCase(),
-              excerpt: bodyText.slice(0, 200) + (bodyText.length > 200 ? '...' : ''),
+              excerpt: bodyText.slice(0, 220) + (bodyText.length > 220 ? '...' : ''),
             });
           } catch (err) {
             console.error('Helpdesk search indexing failed', article.url, err);
-            const fallbackText = (article.fallbackContent || article.title).trim();
+            const fallbackText = (article.title || '').trim();
             index.push({
               ...article,
               content: `${article.title} ${fallbackText}`.toLowerCase(),
-              excerpt: fallbackText,
+              excerpt: fallbackText || 'Open this article to read the full steps.',
             });
           }
         }
@@ -403,3 +413,8 @@
 <script src="footer.js"></script>
 </body>
 </html>
+
+
+
+
+

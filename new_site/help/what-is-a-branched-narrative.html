@@ -1,577 +1,214 @@
 <!doctype html>
-
-
 <html lang="en">
-
-
 <head>
-
-
   <meta charset="UTF-8" />
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-  <title>What is a branched narrative? | Smart VR Lab Helpdesk</title>
-
-
-  <meta name="description" content="Understand how branched narratives guide learners through decision-driven VR stories." />
-
-
-  <meta property="og:title" content="What is a branched narrative?" />
-
-
-  <meta property="og:description" content="Understand how branched narratives guide learners through decision-driven VR stories." />
-
-
+  <title>What is a Branched Narrative? | Smart VR Lab Helpdesk</title>
+  <meta name="description" content="What's a Branched Video and what are some of the tools and techniques for creating an engaging one? We'll talk more about it in this article." />
+  <meta property="og:title" content="What is a Branched Narrative?" />
+  <meta property="og:description" content="What's a Branched Video and what are some of the tools and techniques for creating an engaging one? We'll talk more about it in this article." />
   <meta property="og:type" content="article" />
-
-
   <meta property="og:site_name" content="Smart VR Lab" />
-
-
   <meta name="twitter:card" content="summary_large_image" />
-
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
-
-
   <script src="https://cdn.tailwindcss.com"></script>
-
-
   <script>
-
-
     tailwind.config = {
-
-
       theme: {
-
-
         extend: {
-
-
           fontFamily: {
-
-
             sans: ['Inter', 'sans-serif'],
-
-
             display: ['Manrope', 'Inter', 'sans-serif'],
-
-
           },
-
-
         }
-
-
       }
-
-
     }
-
-
   </script>
-
-
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../cropped-Frame-4-32x32.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../cropped-Frame-4-32x32.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="../cropped-Frame-4-192x192.png" />
-
-
   <style>
-
-
     .help-article h2 { font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem; }
-
-
     .help-article h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; }
-
-
     .help-article p { margin-bottom: 0.75rem; line-height: 1.7; }
-
-
     .help-article ol { list-style: decimal; padding-left: 1.25rem; }
-
-
     .help-article strong { font-weight: 700; }
-
-
     .help-step { padding: 1rem; border-radius: 1rem; border: 1px solid rgb(229,231,235); background: rgb(248,250,252); }
-
-
     .help-meta { display: grid; gap: 0.5rem; }
-
-
     @media (prefers-color-scheme: dark) {
-
-
       .help-step { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.08); }
-
-
     }
-
-
   </style>
-
-
 </head>
-
-
 <body class="bg-base-100 text-base-content">
-
-
   <div class="min-h-screen flex flex-col">
-
-
     
-
-
     <header class="border-b border-base-200">
-
-
       <div class="navbar max-w-6xl mx-auto px-4 md:px-8">
-
-
         <div class="navbar-start">
-
-
-          <a class="text-2xl font-display font-bold text-primary" href="../index.html">Smart VR Lab</a>
-
-
-        </div>
-
-
+<a class="flex items-center" href="../index.html">
+<img alt="Smart VR Lab logo" class="h-10 w-auto" src="../../scraped_site/assets/wp-content/uploads/2020/02/Smart_VR_Lab_Logo_Horizontal_White-1.png"/>
+</a>
+</div>
         <div class="navbar-center hidden lg:flex">
-
-
-          <ul class="menu menu-horizontal px-1 text-sm font-medium">
-
-            <li><a href="../services.html">Services</a></li>
-
-
+          <ul class="menu menu-horizontal px-1 text-sm font-medium"> <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
             <li><a href="../interactive-video.html">Interactive Video</a></li>
-
-
             <li><a href="../pricing.html">Pricing</a></li>
-
-
             <li><a href="../virtual-reality-blog.html">Blog</a></li>
-
-
             <li><a href="../helpdesk.html">Helpdesk</a></li>
-
-
           </ul>
-
-
         </div>
-
-
         <div class="navbar-end gap-2">
-
-
           <a class="btn btn-ghost btn-sm" href="../index.html#demo">Demo</a>
-
-
           <a class="btn btn-primary btn-sm" href="../index.html#cta">Plan a call</a>
-
-
           <div class="dropdown dropdown-end lg:hidden">
-
-
             <label tabindex="0" class="btn btn-ghost btn-sm">Menu</label>
-
-
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-
-              <li><a href="../services.html">Services</a></li>
-
-
+              <li><a href="../vr-cms.html">VR CMS</a></li> <li><a href="../services.html">Services</a></li>
               <li><a href="../interactive-video.html">Interactive Video</a></li>
-
-
               <li><a href="../pricing.html">Pricing</a></li>
-
-
               <li><a href="../virtual-reality-blog.html">Blog</a></li>
-
-
               <li><a href="../helpdesk.html">Helpdesk</a></li>
-
-
               <li><a href="../index.html#cta">Plan a call</a></li>
-
-
             </ul>
-
-
           </div>
-
-
         </div>
-
-
       </div>
-
-
     </header>
 
-
-
-
-
     <main class="flex-1">
-
-
       <section class="border-b border-base-200 bg-base-200/60">
-
-
         <div class="max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-14">
-
-
           <div class="flex flex-col gap-4">
-
-
             <div class="flex flex-wrap items-center gap-3 text-xs md:text-sm text-primary">
-
-
               <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-semibold uppercase tracking-[0.18em]">
-
-
                 Helpdesk
-
-
               </span>
-
-
               <span class="text-base-content/70">Interactive / Learning</span>
-
-
             </div>
-
-
-            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">What is a branched narrative?</h1>
-
-
+            <h1 class="text-3xl md:text-4xl font-display font-bold leading-tight">What is a Branched Narrative?</h1>
             <div class="help-meta text-sm text-base-content/70">
-
-
               <span><strong class="text-base-content">Time:</strong> ~4 minutes</span>
-
-
               <span><strong class="text-base-content">Device:</strong> Web app</span>
-
-
             </div>
-
-
-            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">Understand how branched narratives guide learners through decision-driven VR stories.</p>
-
-
+            <p class="text-base md:text-lg text-base-content/80 max-w-3xl">What&apos;s a Branched Video and what are some of the tools and techniques for creating an engaging one? We&apos;ll talk more about it in this article.</p>
             <div class="flex flex-wrap gap-3">
-
-
-              <a class="btn btn-primary" href="#steps">Jump to steps</a>
-
-
+              <a class="btn btn-primary" href="#styles">Jump to styles</a>
               <a class="btn btn-ghost gap-2" href="../helpdesk.html">
-
-
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
-
-
                 Back to helpdesk
-
-
               </a>
-
-
             </div>
-
-
           </div>
-
-
         </div>
-
-
       </section>
 
-
       <section class="py-12 md:py-16 bg-base-100">
-
-
         <div class="max-w-5xl mx-auto px-4 md:px-8 grid lg:grid-cols-[2fr_1fr] gap-10">
-
-
           <article class="space-y-10">
-
-
-            
-
 
             <div class="card bg-base-100 shadow-md border border-base-200 overflow-hidden">
               <figure class="bg-base-200">
-                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/narrative-1024x484.png" alt="Branched narrative structure diagram" class="w-full h-auto object-cover">
+                <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/linear_Narrative-1024x99.png" alt="Example branched narrative structures" class="w-full h-auto object-cover">
               </figure>
-
-
-
-              <div class="p-6 bg-base-200 border-b border-base-300">
-
-
-                <p class="text-sm font-semibold text-base-content/70 uppercase tracking-[0.12em]">Checklist</p>
-
-
-                <p class="text-base text-base-content/80">Follow the steps below to complete this task.</p>
-
-
-              </div>
-
-
-        
-
-
               <div class="card-body">
-
-
-                <div class="grid md:grid-cols-2 gap-4 text-sm text-base-content/80">
-
-
-                  <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
-
-
-                    <strong class="text-base-content">What you need</strong>
-
-
-                    <ul class="list-disc list-inside mt-2 space-y-1">
-
-
-                      <li>Smart VR Lab account at app.smartvrlab.nl</li>
-
-
-                      <li>Stable internet connection</li>
-
-
-                      <li>Device access as noted above</li>
-
-
-                    </ul>
-
-
-                  </div>
-
-
-                  <div class="p-3 rounded-xl bg-base-200/60 border border-base-300">
-
-
-                    <strong class="text-base-content">Outcome</strong>
-
-
-                    <p class="mt-2">Complete these steps and you will be ready for the next publishing action.</p>
-
-
-                  </div>
-
-
-                </div>
-
-
+                <p>There are many different sorts of Branched Narratives (branched videos). Finding the one that fits the experience you want to create is important. Below are the most popular story narratives.</p>
               </div>
-
-
             </div>
 
+            <div id="styles" class="help-article space-y-8">
 
-    
+              <div class="space-y-4">
+                <h2>Linear Storyline</h2>
+                <p>A linear story, even for Virtual Reality, follows the same path as a normal linear story. There is never an option of answering an alternative answer and getting another ending. The user follows a predetermined path toward the ending without their input affecting the ending of the story.</p>
+                <div class="grid gap-4">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/linear_Narrative-1024x99.png" alt="Linear narrative diagram" class="rounded-lg border border-base-300 w-full max-w-3xl">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/Linearstoryline.gif" alt="Linear storyline example" class="rounded-lg border border-base-300 w-full max-w-3xl">
+                </div>
+                <p>As you can see in this Interactive, you progress through the video with some questions here and there, which all only have one answer. This is an example of how you can make a multiple choice linear storyline (with only one answer). Linear storytelling also works great with the checkbox structure.</p>
+              </div>
 
+              <div class="space-y-4">
+                <h2>String of Pearls</h2>
+                <p>The string of pearls, also known as the wide linear structure, is basically a main storyline which branches off slightly. It allows for a less linear experience while going through the plotline. You can, for example, choose an answer and get a slightly different situation than the other choices while eventually being led back towards the main storyline. Or you answer the question incorrectly and get a premature ending. This is a structure that&apos;s used most commonly.</p>
+                <div class="grid gap-4">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/narrative-1024x484.png" alt="String of pearls diagram" class="rounded-lg border border-base-300 w-full">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/StringofPearls.gif" alt="String of pearls example" class="rounded-lg border border-base-300 w-full max-w-3xl">
+                </div>
+                <p>The string of pearls has to be used in a branched narrative Interactive video.</p>
+              </div>
 
-            <div id="steps" class="help-article space-y-6">
+              <div class="space-y-4">
+                <h2>The Branch-and-Bottleneck Map</h2>
+                <p>A branch-and-bottleneck structure allows the users to explore different paths in the story that eventually rejoin the larger narrative. So you could have multiple answers in a video that have their own side stories but in the end still join the plotline. You could do this if there isn&apos;t necessarily one correct answer to the questions.</p>
+                <div class="grid gap-4">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Bottleneck_narrative-1024x374.png" alt="Branch and bottleneck diagram" class="rounded-lg border border-base-300 w-full">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/Branchandbottleneck.gif" alt="Branch and bottleneck example" class="rounded-lg border border-base-300 w-full max-w-3xl">
+                </div>
+                <p>Be careful to use this method sparingly or the user could get the feeling that the choices they make have no effect on the story of your interactive video and it&apos;ll make the experience less interesting.</p>
+              </div>
 
+              <div class="space-y-4">
+                <h2>The Many Endings Structure</h2>
+                <p>The many endings structure allows your user to really have a big impact on the storyline. Every time a question is answered they get thrown to another path. This way the user can experience the different outcomes of the story and see which consequences are attached to the choices you make throughout the video. This is also the method we see most used in our training videos. However, be aware that too much choice can give the user a feeling of confusion or aimlessness. Finding the balance to it all is ultimately the key to having a good Branched Video.</p>
+                <div class="grid gap-4">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Many_endings_narrative.png" alt="Many endings diagram" class="rounded-lg border border-base-300 w-full max-w-xl">
+                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2024/01/ManyEndingStructure.gif" alt="Many endings example" class="rounded-lg border border-base-300 w-full max-w-3xl">
+                </div>
+                <p>In the video above you can see that on the first question you&apos;re immediately presented with a choice. It splits into different videos and continues splitting until the ending. With this type of storytelling you can really show the effects your choices have on the outcome of the (VR) Interactive.</p>
+              </div>
 
               <div class="help-step">
-
-                <h2>Step 1 - Define decisions</h2>
-
-                <p>List the key decision points and possible outcomes.</p>
-
+                <h2>Did you know?</h2>
+                <p>You can combine these Branched Narratives to create an even more immersive (VR) Interactive.</p>
               </div>
-
-
-<div class="help-step">
-                <h2>Step 2 - Map the branches</h2>
-                <p>Create a simple flowchart of scenes and choices.</p><p>Keep branches limited to avoid complexity.</p>
-                <figure class="my-4 flex justify-center">
-                  <img src="../../scraped_site_smartvrlab.nl/assets/wp-content/uploads/2023/12/Many_endings_narrative.png" alt="Example branching flow" class="rounded-2xl border border-base-200 bg-base-100 shadow max-h-96 object-contain">
-                </figure>
-              </div>
-
-
-<div class="help-step">
-
-                <h2>Step 3 - Build in the editor</h2>
-
-                <p>Use hotspots or prompts to let users choose a path.</p><p>Link each choice to the correct scene or timecode.</p>
-
-              </div>
-
-
-<div class="help-step">
-
-                <h2>Step 4 - Test each path</h2>
-
-                <p>Preview every branch to confirm it plays and returns as expected.</p>
-
-              </div>
-
 
             </div>
-
 
             <div class="flex flex-wrap gap-3">
-
-
               <a class="btn btn-outline gap-2" href="../helpdesk.html">
-
-
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
-
-
                 Back to helpdesk
-
-
               </a>
-
-
               <a class="btn btn-primary" href="../index.html#cta">Need more help? Contact us</a>
-
-
             </div>
-
 
           </article>
 
-
           <aside class="lg:sticky lg:top-10 space-y-6">
 
-
             <div class="card bg-base-200/80 border border-base-300 shadow-sm">
-
-
               <div class="card-body space-y-3">
-
-
                 <p class="text-sm font-semibold text-base-content/70 uppercase tracking-[0.12em]">Quick links</p>
-
-
                 <ul class="space-y-2 text-sm leading-relaxed">
-
-
-                  <li><a class="link link-hover flex items-center gap-2" href="#steps"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Step-by-step guide</a></li>
-
-
+                  <li><a class="link link-hover flex items-center gap-2" href="#styles"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Branched narrative styles</a></li>
                   <li><a class="link link-hover flex items-center gap-2" href="../helpdesk.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>All helpdesk articles</a></li>
-
-
                   <li><a class="link link-hover flex items-center gap-2" href="../index.html#cta"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span>Plan a call</a></li>
-
-
                 </ul>
-
-
               </div>
-
-
             </div>
-
 
             <div class="card bg-primary text-primary-content shadow-xl">
-
-
               <div class="card-body space-y-3">
-
-
                 <p class="font-display text-lg font-bold">Need hands-on help?</p>
-
-
-                <p class="text-sm text-primary-content/80">Schedule a call with our onboarding team and we will walk you through it live.</p>
-
-
+                <p class="text-sm text-primary-content/80">We can help you pick the right narrative style for your training.</p>
                 <a class="btn btn-outline border-white/40 text-primary-content hover:bg-white hover:text-primary" href="../index.html#cta">Talk to us</a>
-
-
               </div>
-
-
             </div>
-
 
           </aside>
 
-
         </div>
-
-
       </section>
-
-
     </main>
     <div id="site-footer"></div>
 
-
-
-
-
-
   </div>
-
-
   <script src="../footer.js"></script>
 </body>
-
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
