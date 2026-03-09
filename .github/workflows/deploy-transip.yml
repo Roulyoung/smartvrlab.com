@@ -38,8 +38,10 @@ jobs:
           : "${SFTP_PORT:?Missing TRANSIP_SFTP_PORT}"
           : "${SFTP_USERNAME:?Missing TRANSIP_SFTP_USERNAME}"
           : "${SFTP_PASSWORD:?Missing TRANSIP_SFTP_PASSWORD}"
-          : "${SFTP_REMOTE_DIR_PROD:?Missing TRANSIP_SFTP_REMOTE_DIR_PROD}"
-          : "${SFTP_REMOTE_DIR_STAGING:?Missing TRANSIP_SFTP_REMOTE_DIR_STAGING}"
+
+          # Default paths for this TransIP setup if directory secrets are not set.
+          SFTP_REMOTE_DIR_PROD="${SFTP_REMOTE_DIR_PROD:-www/smartvrlab.com}"
+          SFTP_REMOTE_DIR_STAGING="${SFTP_REMOTE_DIR_STAGING:-www/smartvrlab.com/staging}"
 
           if [ "${GITHUB_REF_NAME}" = "main" ]; then
             REMOTE_DIR="${SFTP_REMOTE_DIR_PROD}"

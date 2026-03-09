@@ -14,8 +14,10 @@ Maak deze secrets aan:
 - `TRANSIP_SFTP_PORT` = `22`
 - `TRANSIP_SFTP_USERNAME` = `smartvrlabnl`
 - `TRANSIP_SFTP_PASSWORD` = je TransIP wachtwoord
-- `TRANSIP_SFTP_REMOTE_DIR_PROD` = `www`
-- `TRANSIP_SFTP_REMOTE_DIR_STAGING` = `www/staging`
+- `TRANSIP_SFTP_REMOTE_DIR_PROD` = `www/smartvrlab.com`
+- `TRANSIP_SFTP_REMOTE_DIR_STAGING` = `www/smartvrlab.com/staging`
+
+Als de laatste 2 secrets niet gezet zijn, gebruikt de workflow automatisch deze paden als fallback.
 
 ## 2) Publiceren
 - Productie: push naar `main`
