@@ -1,5 +1,4 @@
 name: Deploy to TransIP (SFTP)
-# trigger-note: staging manual trigger
 
 on:
   push:
@@ -65,7 +64,3 @@ jobs:
             echo "Unsupported branch: ${GITHUB_REF_NAME}"
             exit 1
           fi
-
-          # Shared assets referenced by many pages with ../scraped_site* paths.
-          upload_dir "scraped_site/assets/" "www/scraped_site/assets"
-          upload_dir "scraped_site_smartvrlab.nl/assets/" "www/scraped_site_smartvrlab.nl/assets"
