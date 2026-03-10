@@ -41,22 +41,26 @@ jobs:
 
           # Default paths for this TransIP setup if directory secrets are not set.
           SFTP_REMOTE_DIR_PROD="${SFTP_REMOTE_DIR_PROD:-www/smartvrlab.com}"
-          SFTP_REMOTE_DIR_STAGING="${SFTP_REMOTE_DIR_STAGING:-www/smartvrlab.com/staging}"
+          SFTP_REMOTE_DIR_STAGING="${SFTP_REMOTE_DIR_STAGING:-www/staging}"
+
+          upload_dir () {
+            local source_dir="$1"
+            local target_dir="$2"
+            lftp -u "${SFTP_USERNAME}","${SFTP_PASSWORD}" "sftp://${SFTP_HOST}:${SFTP_PORT}" <<EOF
+            set sftp:auto-confirm yes
+            set cmd:fail-exit yes
+            set net:max-retries 2
+            set net:timeout 20
+            mirror -R --delete --verbose=1 "${source_dir}" "${target_dir}"
+            bye
+          EOF
+          }
 
           if [ "${GITHUB_REF_NAME}" = "main" ]; then
-            REMOTE_DIR="${SFTP_REMOTE_DIR_PROD}"
+            upload_dir "new_site/" "${SFTP_REMOTE_DIR_PROD}"
           elif [ "${GITHUB_REF_NAME}" = "staging" ]; then
-            REMOTE_DIR="${SFTP_REMOTE_DIR_STAGING}"
+            upload_dir "new_site/" "${SFTP_REMOTE_DIR_STAGING}"
           else
             echo "Unsupported branch: ${GITHUB_REF_NAME}"
             exit 1
           fi
-
-          lftp -u "${SFTP_USERNAME}","${SFTP_PASSWORD}" "sftp://${SFTP_HOST}:${SFTP_PORT}" <<EOF
-          set sftp:auto-confirm yes
-          set cmd:fail-exit yes
-          set net:max-retries 2
-          set net:timeout 20
-          mirror -R --delete --verbose=1 new_site/ "${REMOTE_DIR}"
-          bye
-          EOF
